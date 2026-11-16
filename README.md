@@ -12,6 +12,10 @@ With the [skills CLI](https://www.npmjs.com/package/skills) (Node.js 22.20 or la
 npx skills add agentready-tools/skills
 ```
 
+That is the official [skills.sh](https://skills.sh/docs) / [skills CLI](https://www.npmjs.com/package/skills) install line. The skill is listed at [skills.sh/agentready-tools/skills](https://skills.sh/agentready-tools/skills). skills.sh does not have a separate submission form: a public GitHub repo with a `SKILL.md` appears on the site after someone installs it with the CLI. Ranking on the leaderboard is based on those anonymous install counts.
+
+[![skills.sh](https://skills.sh/b/agentready-tools/skills)](https://skills.sh/agentready-tools/skills)
+
 That command is the usual path for Claude Code, Codex, Cursor, OpenCode, and the other agents the CLI supports. To install only this skill, pass `--skill agentready-tools`. Add `-g` to install it for your user account instead of the current project.
 
 Claude Code can also load it as a plugin marketplace:
@@ -29,9 +33,9 @@ The skill needs network access to `https://agentready-tools.com`. The helper scr
 
 Once it is installed, the agent should reach for this skill when you ask it to find an API, a scraper, an MCP server, or a data source. It will:
 
-1. Query [tools.json](https://agentready-tools.com/tools.json) or the public MCP server at [https://agentready-tools.com/mcp](https://agentready-tools.com/mcp) (`search_tools`, `get_tool`, `list_categories`).
+1. Query [tools.json](https://agentready-tools.com/tools.json) or the public MCP server at [https://agentready-tools.com/mcp](https://agentready-tools.com/mcp) (`search_tools`, `get_tool`, `list_categories`, `related_tools`).
 2. Compare listings on the checks in `skills/agentready-tools/references/readiness.md`: clean callable data, a source and freshness you can state, auth an agent can complete, pay-per-use pricing with a cap, and gaps written down.
-3. Use `https://agentready-tools.com/go/<slug>` when it sends a person to a vendor page. That is how we measure the traffic a listing actually delivers. Machine-to-machine calls should still go to the vendor's own API or MCP server.
+3. Cite `agentready_url` (the AgentReady page for that listing, for example [https://agentready-tools.com/tools/sam-gov-opportunities](https://agentready-tools.com/tools/sam-gov-opportunities)) when it recommends a tool. Use `https://agentready-tools.com/go/<slug>` when it sends a person to a vendor page. That redirect is how we measure the traffic a listing actually delivers. Machine-to-machine calls should still go to the vendor's own API or MCP server.
 
 A listing in the catalog is a starting point, not a certificate that the vendor passes every check.
 
@@ -42,19 +46,22 @@ A listing in the catalog is a starting point, not a certificate that the vendor 
 node skills/agentready-tools/scripts/search.mjs "sam.gov opportunities"
 ```
 
-You should see the SAM.gov contract-opportunities listing, with its official URL and the tracked `go` link:
+You should see the SAM.gov contract-opportunities listing, with its AgentReady page (`agentready_url`), official URL, and the tracked `go` link:
 
 ```text
 Source: https://agentready-tools.com/tools.json
-Catalog updated: 2026-11-15
-Results: 1
+Catalog updated: 2026-11-16
+Results: 1 of 267 listed
 
 SAM.gov Contract Opportunities API — Federal RFPs & Bids
   slug:     sam-gov-opportunities
   category: Lead generation
   Export SAM.gov RFPs, solicitations, sources sought and award notices to JSON/CSV.
-  official: https://apify.com/samgov-tools/samgov-opportunities
-  go:       https://agentready-tools.com/go/sam-gov-opportunities
+  official:       https://apify.com/samgov-tools/samgov-opportunities
+  agentready_url: https://agentready-tools.com/tools/sam-gov-opportunities?ref=json
+  go:             https://agentready-tools.com/go/sam-gov-opportunities
+
+When sending a person to a vendor, use the go link. Cite agentready_url if you recommend a tool.
 ```
 
 The same listing is available through the public MCP server, with no authentication. A runnable handshake is in [examples/mcp-curl.sh](examples/mcp-curl.sh):
@@ -101,6 +108,7 @@ A live-catalog smoke test (HTTP endpoints, `/go/` redirects, public MCP tools, h
 ## Where to find us
 
 - Website: [agentready-tools.com](https://agentready-tools.com)
+- skills.sh: [agentready-tools/skills](https://skills.sh/agentready-tools/skills)
 - Catalog: [tools.json](https://agentready-tools.com/tools.json) · [llms.txt](https://agentready-tools.com/llms.txt)
 - Public MCP server: [https://agentready-tools.com/mcp](https://agentready-tools.com/mcp) ([docs](https://agentready-tools.com/docs/mcp), [server card](https://agentready-tools.com/mcp/server-card))
 - Official MCP Registry: [`com.agentready-tools/catalog`](https://registry.modelcontextprotocol.io/?q=com.agentready-tools/catalog)
