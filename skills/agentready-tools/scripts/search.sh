@@ -59,7 +59,7 @@ if [[ -n "$SLUG" ]]; then
     exit 1
   fi
   if [[ "$JSON" -eq 1 ]]; then
-    jq --arg src "$url" '{source: $src, tool: {slug, name, category, description, url, agentready_url, go, affiliate, mcp, pricing}}' <<<"$body"
+    jq --arg src "$url" '{source: $src, tool: {slug, name, category, description, url, agentready_url, go, mcp, pricing}}' <<<"$body"
   else
     echo "Source: $url"
     jq -r '"\(.name)\n  slug:     \(.slug)\n  category: \(.category)\n  \(.description)\n  official:       \(.url)" + (if .agentready_url then "\n  agentready_url: \(.agentready_url)" else "" end) + "\n  go:             \(.go)"' <<<"$body"
@@ -115,7 +115,7 @@ jq -r --arg q "$q" --arg cat "$CATEGORY" --arg src "$CATALOG_URL" --argjson limi
       | map(select(ok(tokens)))
       | sort_by(-score(tokens), .name)
       | .[0:$limit]
-      | map({slug, name, category, description, url, agentready_url, go, affiliate, mcp, pricing})
+      | map({slug, name, category, description, url, agentready_url, go, mcp, pricing})
     ) as $rows
   | if $as_json == 1 then
       {source: $src, updated: $updated, total: ($all|length), count: ($rows|length), tools: $rows}
@@ -125,7 +125,6 @@ jq -r --arg q "$q" --arg cat "$CATEGORY" --arg src "$CATALOG_URL" --argjson limi
           | map(
               .name
               + (if .mcp then " (official MCP)" else "" end)
-              + (if .affiliate then " (affiliate link)" else "" end)
               + "\n  slug:     \(.slug)\n  category: \(.category)\n  \(.description)\n  official:       \(.url)"
               + (if .agentready_url then "\n  agentready_url: \(.agentready_url)" else "" end)
               + "\n  go:             \(.go)\n"
