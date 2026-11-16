@@ -2,7 +2,7 @@
 
 An [Agent Skill](https://agentskills.io/specification) that teaches an AI agent how to search the [AgentReady Tools](https://agentready-tools.com) catalog and pick an API, scraper, official MCP server, or data source for a task.
 
-The catalog is public. As of 16 November 2026 it lists 173 tools in [tools.json](https://agentready-tools.com/tools.json). This repo is the skill, not the catalog itself. Some outbound `/go/<slug>` links on the site are affiliate links; the disclosure on [the directory](https://agentready-tools.com/directory) applies. Privacy policy: [https://agentready-tools.com/privacy](https://agentready-tools.com/privacy). Listings of financial data APIs are data and tools only, not investment advice.
+The catalog is public. It lists more than 250 agent-ready tools in [tools.json](https://agentready-tools.com/tools.json). This repo is the skill, not the catalog itself. Some outbound `/go/<slug>` links on the site are affiliate links; the disclosure on [the directory](https://agentready-tools.com/directory) applies. Privacy policy: [https://agentready-tools.com/privacy](https://agentready-tools.com/privacy). Listings of financial data APIs are data and tools only, not investment advice.
 
 ## Install
 
@@ -47,7 +47,7 @@ You should see the SAM.gov contract-opportunities listing, with its official URL
 ```text
 Source: https://agentready-tools.com/tools.json
 Catalog updated: 2026-11-15
-Results: 1 of 173 listed
+Results: 1
 
 SAM.gov Contract Opportunities API — Federal RFPs & Bids
   slug:     sam-gov-opportunities
@@ -57,15 +57,26 @@ SAM.gov Contract Opportunities API — Federal RFPs & Bids
   go:       https://agentready-tools.com/go/sam-gov-opportunities
 ```
 
-Same search through the public MCP server, no authentication:
+The same listing is available through the public MCP server, with no authentication. A runnable handshake is in [examples/mcp-curl.sh](examples/mcp-curl.sh):
 
 ```bash
-# search_tools, after an MCP initialize handshake with
-# https://agentready-tools.com/mcp
-# returns the same slug, official url, and go link.
+bash examples/mcp-curl.sh
 ```
 
 Registry name: `com.agentready-tools/catalog`. Server card: https://agentready-tools.com/mcp/server-card
+
+## Examples
+
+The [examples](examples/) folder has short, runnable snippets that query the live catalog and the public MCP server. From the repository root:
+
+```bash
+bash examples/catalog.sh
+python3 examples/catalog.py
+node examples/catalog.mjs
+bash examples/mcp-curl.sh
+```
+
+MCP client configs for Claude Desktop, Cursor, and Claude Code are in [examples/mcp](examples/mcp/).
 
 ## Layout
 
@@ -75,6 +86,7 @@ skills/agentready-tools/
   scripts/search.mjs       # Node helper, no npm dependencies
   scripts/search.sh        # curl + jq helper
   references/readiness.md  # the five agent-readiness checks
+examples/                  # curl, Python, Node, and MCP client snippets
 .claude-plugin/
   marketplace.json         # Claude Code plugin marketplace
   plugin.json
@@ -97,6 +109,9 @@ A live-catalog smoke test (HTTP endpoints, `/go/` redirects, public MCP tools, h
 - Apify Store, under [`samgov-tools`](https://apify.com/samgov-tools): [SAM.gov Contract Opportunities](https://apify.com/samgov-tools/samgov-opportunities), [Website Screenshot](https://apify.com/samgov-tools/url-screenshot), [ATS Jobs](https://apify.com/samgov-tools/ats-jobs), [USAspending Awards](https://apify.com/samgov-tools/usaspending-awards), [Agent Payment Checker](https://apify.com/samgov-tools/agentpay-checker), [Agent Wallet Spend Report](https://apify.com/samgov-tools/agent-spend)
 - GitHub: [agentready-tools](https://github.com/agentready-tools) (this skill: [agentready-tools/skills](https://github.com/agentready-tools/skills))
 - X: [@AgentReadyTools](https://x.com/AgentReadyTools)
+- Reddit: [u/AgentReadyTools](https://www.reddit.com/user/AgentReadyTools)
+- dev.to: [agentreadytools](https://dev.to/agentreadytools)
+- Substack: [agentreadytools.substack.com](https://agentreadytools.substack.com)
 
 The Claude Code install commands are in [Install](#install) above.
 
