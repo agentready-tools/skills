@@ -9,7 +9,7 @@
     {
       "name": "agentready-tools",
       "description": "Find and compare agent-ready APIs, scrapers, and official MCP servers from the AgentReady Tools catalog.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "AgentReady Tools",
         "url": "https://agentready-tools.com"
@@ -17,9 +17,16 @@
       "homepage": "https://agentready-tools.com",
       "repository": "https://github.com/agentready-tools/skills",
       "license": "MIT",
-      "keywords": ["agent-skills", "mcp", "apis", "catalog"],
+      "keywords": [
+        "agent-skills",
+        "mcp",
+        "apis",
+        "catalog"
+      ],
       "source": "./",
-      "skills": ["./skills/agentready-tools"]
+      "skills": [
+        "./skills/agentready-tools"
+      ]
     }
   ]
 }

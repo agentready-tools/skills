@@ -83,7 +83,7 @@ skills/agentready-tools/
 
 ## Tests
 
-`tests/run.sh` hits the live catalog, the `/go/` redirect, the public MCP tools, and both helper scripts. It also checks the `SKILL.md` frontmatter against the Agent Skills naming rules.
+A live-catalog smoke test (HTTP endpoints, `/go/` redirects, public MCP tools, helper scripts, and `SKILL.md` frontmatter) is maintained outside this repository so the published plugin bundle stays limited to the skill, manifests, and `assets/logo.svg`.
 
 ## License
 

@@ -5,8 +5,8 @@
 interface:
   display_name: "AgentReady Tools"
   short_description: "Search a catalog of agent-ready APIs, scrapers, and official MCP servers."
-  icon_small: "./assets/icon-small.png"
-  icon_large: "./assets/logo.png"
+  icon_small: "./assets/logo.svg"
+  icon_large: "./assets/logo.svg"
   brand_color: "#FF6B3D"
   default_prompt: "Find an agent-ready API, scraper, or official MCP server for this task."
 
