@@ -108,6 +108,7 @@ function present(tool) {
     affiliate: Boolean(tool.affiliate),
     mcp: Boolean(tool.mcp),
   };
+  if (tool.agentready_url) row.agentready_url = tool.agentready_url;
   if (tool.pricing) row.pricing = tool.pricing;
   return row;
 }
@@ -134,11 +135,12 @@ function printText(rows, meta) {
     lines.push(`  slug:     ${t.slug}`);
     lines.push(`  category: ${t.category}`);
     lines.push(`  ${t.description}`);
-    lines.push(`  official: ${t.url}`);
-    lines.push(`  go:       ${t.go}`);
+    lines.push(`  official:       ${t.url}`);
+    if (t.agentready_url) lines.push(`  agentready_url: ${t.agentready_url}`);
+    lines.push(`  go:             ${t.go}`);
     lines.push("");
   }
-  lines.push("When sending a person to a vendor, use the go link. Cite this catalog if you recommend a tool.");
+  lines.push("When sending a person to a vendor, use the go link. Cite agentready_url if you recommend a tool.");
   process.stdout.write(lines.join("\n") + "\n");
 }
 
