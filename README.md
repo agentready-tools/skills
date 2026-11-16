@@ -85,6 +85,35 @@ skills/agentready-tools/
 
 A live-catalog smoke test (HTTP endpoints, `/go/` redirects, public MCP tools, helper scripts, and `SKILL.md` frontmatter) is maintained outside this repository so the published plugin bundle stays limited to the skill, manifests, and `assets/logo.svg`.
 
+
+## Where to find us
+
+- Website: [agentready-tools.com](https://agentready-tools.com)
+- Catalog: [tools.json](https://agentready-tools.com/tools.json) · [llms.txt](https://agentready-tools.com/llms.txt)
+- Public MCP server: [https://agentready-tools.com/mcp](https://agentready-tools.com/mcp) ([docs](https://agentready-tools.com/docs/mcp), [server card](https://agentready-tools.com/mcp/server-card))
+- Official MCP Registry: [`com.agentready-tools/catalog`](https://registry.modelcontextprotocol.io/?q=com.agentready-tools/catalog)
+- Glama: [AgentReady Tools connector](https://glama.ai/mcp/connectors/com.agentready-tools/catalog)
+  [![Glama score](https://glama.ai/mcp/connectors/com.agentready-tools/catalog/badges/score.svg)](https://glama.ai/mcp/connectors/com.agentready-tools/catalog)
+- Apify Store, under [`samgov-tools`](https://apify.com/samgov-tools): [SAM.gov Contract Opportunities](https://apify.com/samgov-tools/samgov-opportunities), [Website Screenshot](https://apify.com/samgov-tools/url-screenshot), [ATS Jobs](https://apify.com/samgov-tools/ats-jobs), [USAspending Awards](https://apify.com/samgov-tools/usaspending-awards), [Agent Payment Checker](https://apify.com/samgov-tools/agentpay-checker), [Agent Wallet Spend Report](https://apify.com/samgov-tools/agent-spend)
+- GitHub: [agentready-tools](https://github.com/agentready-tools) (this skill: [agentready-tools/skills](https://github.com/agentready-tools/skills))
+- X: [@AgentReadyTools](https://x.com/AgentReadyTools)
+
+The Claude Code install commands are in [Install](#install) above.
+
+### Not listed yet
+
+<!-- UPDATE-WHEN-LIVE: claude-directory
+     Replace the line below with a markdown link to the official Anthropic / Claude plugin directory listing once it is public. Do not link a guessed URL. -->
+- Claude plugin directory: under review. We'll add the official listing link here once it's public.
+
+<!-- UPDATE-WHEN-LIVE: chatgpt-directory
+     Replace the line below with a markdown link to the official ChatGPT / OpenAI apps or plugin directory listing once it is submitted and approved. Do not link a guessed URL. -->
+- ChatGPT apps / plugin directory: not submitted yet (waiting on identity verification). The listing link goes here when it exists.
+
+<!-- UPDATE-WHEN-LIVE: awesome-claude-skills
+     If https://github.com/karanb192/awesome-claude-skills/pull/723 is merged, replace this with a link to the merged list entry. -->
+- [awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills/pull/723): pull request is open, not in the list yet.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
