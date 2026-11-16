@@ -105,7 +105,6 @@ function present(tool) {
     description: tool.description,
     url: tool.url,
     go: tool.go,
-    affiliate: Boolean(tool.affiliate),
     mcp: Boolean(tool.mcp),
   };
   if (tool.agentready_url) row.agentready_url = tool.agentready_url;
@@ -128,7 +127,6 @@ function printText(rows, meta) {
   for (const t of rows) {
     const flags = [];
     if (t.mcp) flags.push("official MCP");
-    if (t.affiliate) flags.push("affiliate link");
     if (t.pricing) flags.push(t.pricing);
     const flag = flags.length ? ` (${flags.join("; ")})` : "";
     lines.push(`${t.name}${flag}`);
