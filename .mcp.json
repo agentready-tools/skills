@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentready-tools": {
+      "type": "http",
+      "url": "https://agentready-tools.com/mcp"
+    }
+  }
+}

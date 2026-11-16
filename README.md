@@ -2,7 +2,7 @@
 
 An [Agent Skill](https://agentskills.io/specification) that teaches an AI agent how to search the [AgentReady Tools](https://agentready-tools.com) catalog and pick an API, scraper, official MCP server, or data source for a task.
 
-The catalog is public. As of 15 November 2026 it lists 74 tools in [tools.json](https://agentready-tools.com/tools.json). This repo is the skill, not the catalog itself. Some outbound `/go/<slug>` links on the site are affiliate links; the disclosure on [the directory](https://agentready-tools.com/directory) applies. Listings of financial data APIs are data and tools only, not investment advice.
+The catalog is public. As of 16 November 2026 it lists 173 tools in [tools.json](https://agentready-tools.com/tools.json). This repo is the skill, not the catalog itself. Some outbound `/go/<slug>` links on the site are affiliate links; the disclosure on [the directory](https://agentready-tools.com/directory) applies. Privacy policy: [https://agentready-tools.com/privacy](https://agentready-tools.com/privacy). Listings of financial data APIs are data and tools only, not investment advice.
 
 ## Install
 
@@ -47,7 +47,7 @@ You should see the SAM.gov contract-opportunities listing, with its official URL
 ```text
 Source: https://agentready-tools.com/tools.json
 Catalog updated: 2026-11-15
-Results: 1 of 74 listed
+Results: 1 of 173 listed
 
 SAM.gov Contract Opportunities API — Federal RFPs & Bids
   slug:     sam-gov-opportunities
@@ -78,6 +78,7 @@ skills/agentready-tools/
 .claude-plugin/
   marketplace.json         # Claude Code plugin marketplace
   plugin.json
+.mcp.json                  # Official Claude remote MCP pointer (https://agentready-tools.com/mcp)
 ```
 
 ## Tests

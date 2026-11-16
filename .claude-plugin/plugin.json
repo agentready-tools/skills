@@ -9,5 +9,12 @@
   "homepage": "https://agentready-tools.com",
   "repository": "https://github.com/agentready-tools/skills",
   "license": "MIT",
-  "keywords": ["agent-skills", "mcp", "apis", "catalog"]
+  "keywords": [
+    "agent-skills",
+    "mcp",
+    "apis",
+    "catalog"
+  ],
+  "displayName": "AgentReady Tools",
+  "privacyPolicyUrl": "https://agentready-tools.com/privacy"
 }
