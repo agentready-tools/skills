@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agentready-tools",
+  "version": "1.0.0",
+  "description": "Find and compare agent-ready APIs, scrapers, and official MCP servers from the AgentReady Tools catalog.",
+  "author": {
+    "name": "AgentReady Tools",
+    "email": "mosheuzi+ar-plugins@gmail.com"
+  },
+  "homepage": "https://agentready-tools.com",
+  "repository": "https://github.com/agentready-tools/skills",
+  "license": "MIT",
+  "keywords": ["agent-skills", "mcp", "apis", "catalog", "scrapers"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AgentReady Tools",
+        "shortDescription": "Search a catalog of agent-ready APIs, scrapers, and official MCP servers.",
+        "longDescription": "Helps ChatGPT and Codex search the public AgentReady Tools catalog and pick an API, scraper, official MCP server, or data source. Queries https://agentready-tools.com/tools.json or the public MCP server at https://agentready-tools.com/mcp. Some outbound /go/<slug> links are affiliate links; the disclosure on https://agentready-tools.com/directory applies. Listings of financial data APIs are data and tools only, not investment advice.",
+        "developerName": "AgentReady Tools",
+        "category": "Developer Tools",
+        "capabilities": ["Read"],
+        "websiteURL": "https://agentready-tools.com",
+        "privacyPolicyURL": "https://agentready-tools.com/privacy",
+        "termsOfServiceURL": "https://agentready-tools.com/terms",
+        "defaultPrompt": [
+          "Find an API an agent can call for SAM.gov contract opportunities.",
+          "Search the AgentReady Tools catalog for official MCP servers in lead generation.",
+          "Compare agent-ready scrapers or APIs for this task and cite the catalog entry."
+        ],
+        "brandColor": "#FF6B3D",
+        "composerIcon": "./assets/logo.svg",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
