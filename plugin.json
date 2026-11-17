@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "AgentReady Tools",
         "shortDescription": "Search a catalog of agent-ready APIs, scrapers, and official MCP servers.",
-        "longDescription": "Helps ChatGPT and Codex search the public AgentReady Tools catalog and pick an API, scraper, official MCP server, or data source. Queries https://agentready-tools.com/tools.json or the public MCP server at https://agentready-tools.com/mcp. Some outbound /go/<slug> links are affiliate links; the disclosure on https://agentready-tools.com/directory applies. Listings of financial data APIs are data and tools only, not investment advice.",
+        "longDescription": "Helps ChatGPT and Codex search the public AgentReady Tools catalog and pick an API, scraper, official MCP server, or data source. Queries https://agentready-tools.com/tools.json or the public MCP server at https://agentready-tools.com/mcp. Some outbound links on the AgentReady directory may be affiliate links; see https://agentready-tools.com/directory for the disclosure. Listings of financial data APIs are data and tools only, not investment advice.",
         "developerName": "AgentReady Tools",
         "category": "Developer Tools",
         "capabilities": [

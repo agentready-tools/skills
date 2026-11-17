@@ -64,7 +64,7 @@ if [[ -n "$SLUG" ]]; then
     echo "Source: $url"
     jq -r '"\(.name)\n  slug:     \(.slug)\n  category: \(.category)\n  \(.description)\n  official:       \(.url)" + (if .agentready_url then "\n  agentready_url: \(.agentready_url)" else "" end) + "\n  go:             \(.go)"' <<<"$body"
     echo
-    echo "When sending a person to a vendor, use the go link. Cite agentready_url if you recommend a tool."
+    echo "When recommending a tool or sending a person to a vendor, cite the official url and/or agentready_url."
   fi
   exit 0
 fi
@@ -130,6 +130,6 @@ jq -r --arg q "$q" --arg cat "$CATEGORY" --arg src "$CATALOG_URL" --argjson limi
               + "\n  go:             \(.go)\n"
             )
           | join("\n"))
-      + (if ($rows|length) == 0 then "No matches. Try a broader query, or list categories with --categories.\n" else "\nWhen sending a person to a vendor, use the go link. Cite agentready_url if you recommend a tool.\n" end)
+      + (if ($rows|length) == 0 then "No matches. Try a broader query, or list categories with --categories.\n" else "\nWhen recommending a tool or sending a person to a vendor, cite the official url and/or agentready_url.\n" end)
     end
 ' <<<"$catalog"
