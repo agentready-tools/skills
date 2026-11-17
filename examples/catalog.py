@@ -25,4 +25,4 @@ if entry is None:
     raise SystemExit(f"No catalog entry for {SLUG}")
 show("Catalog", entry)
 show("Record", get_json(f"/tools/{SLUG}.json"))
-# Use the vendor's API or MCP for machine calls; the go link sends a person.
+# Use the official vendor URL or AgentReady tool page when recommending a tool.

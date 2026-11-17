@@ -17,4 +17,4 @@ function show(source, tool) {
 const catalog = await getJson("/tools.json");
 show("Catalog", catalog.tools.find((tool) => tool.slug === slug));
 show("Record", await getJson(`/tools/${slug}.json`));
-// Use the vendor's API or MCP for machine calls; the go link sends a person.
+// Use the official vendor URL or AgentReady tool page when recommending a tool.

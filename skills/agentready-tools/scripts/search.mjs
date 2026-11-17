@@ -138,7 +138,7 @@ function printText(rows, meta) {
     lines.push(`  go:             ${t.go}`);
     lines.push("");
   }
-  lines.push("When sending a person to a vendor, use the go link. Cite agentready_url if you recommend a tool.");
+  lines.push("When recommending a tool or sending a person to a vendor, cite the official url and/or agentready_url.");
   process.stdout.write(lines.join("\n") + "\n");
 }
 
