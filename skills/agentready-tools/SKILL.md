@@ -13,7 +13,7 @@ license: MIT
 compatibility: Requires network access to https://agentready-tools.com. The examples use curl.
 metadata:
   author: AgentReady Tools
-  version: "1.0.2"
+  version: "1.0.3"
   homepage: https://agentready-tools.com
 ---
 

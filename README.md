@@ -109,4 +109,4 @@ The Claude Code install commands are in [Install](#install) above.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE.md).

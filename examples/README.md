@@ -80,4 +80,4 @@ curl -fsS 'https://agentready-tools.com/mcp' \
   --data '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"search_tools","arguments":{"query":"sam.gov"}}}'
 ```
 
-See [client configurations](mcp/README.md) and the [MIT license](../LICENSE).
+See [client configurations](mcp/README.md) and the [MIT license](../LICENSE.md).
