@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "agentready-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Find and compare agent-ready APIs, scrapers, and official MCP servers from the AgentReady Tools catalog.",
   "author": {
     "name": "AgentReady Tools",
