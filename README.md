@@ -27,7 +27,7 @@ Claude Code can also load it as a plugin marketplace:
 
 Or copy `skills/agentready-tools` into the skills folder your agent already reads, for example `.agents/skills/agentready-tools` or `~/.claude/skills/agentready-tools`.
 
-The skill needs network access to `https://agentready-tools.com`. The helper scripts need Node.js 18+ (`scripts/search.mjs`) or curl and jq (`scripts/search.sh`).
+The skill needs network access to `https://agentready-tools.com`. The examples use curl, Python 3, or Node.js 18+.
 
 ## What it does
 
@@ -44,45 +44,16 @@ The public MCP at https://agentready-tools.com/mcp is a read-only, no-auth Strea
 ## Short demo
 
 ```bash
-# From this repository, after a clone:
-node skills/agentready-tools/scripts/search.mjs "sam.gov opportunities"
+curl -fsS 'https://agentready-tools.com/api/search?q=sam.gov'
 ```
 
-The output includes the SAM.gov contract-opportunities listing, its AgentReady page (`agentready_url`), official URL, and `go` field. Excerpt:
-
-```text
-Source: https://agentready-tools.com/tools.json
-Catalog updated: 2026-11-16
-Results: 1 of 267 listed
-
-SAM.gov Contract Opportunities API — Federal RFPs & Bids
-  slug:     sam-gov-opportunities
-  category: Lead generation
-  Export SAM.gov RFPs, solicitations, sources sought and award notices to JSON/CSV.
-  official:       https://apify.com/samgov-tools/samgov-opportunities
-  agentready_url: https://agentready-tools.com/tools/sam-gov-opportunities?ref=json
-  go:             https://agentready-tools.com/go/sam-gov-opportunities
-
-```
-
-The same listing is available through the public MCP server, with no authentication. A runnable handshake is in [examples/mcp-curl.sh](examples/mcp-curl.sh):
-
-```bash
-bash examples/mcp-curl.sh
-```
+The response includes matching listings, including the SAM.gov contract-opportunities listing. The same listing is available through the public MCP server; see the [MCP example](examples/README.md#public-mcp).
 
 Registry name: `com.agentready-tools/catalog`. Server card: https://agentready-tools.com/mcp/server-card
 
 ## Examples
 
-The [examples](examples/) folder has short, runnable snippets that query the live catalog and the public MCP server. From the repository root:
-
-```bash
-bash examples/catalog.sh
-python3 examples/catalog.py
-node examples/catalog.mjs
-bash examples/mcp-curl.sh
-```
+The [examples](examples/) folder has snippets for curl, Python, Node, and the public MCP server.
 
 After the user approves connecting the MCP, client configs for Claude Desktop, Cursor, and Claude Code are in [examples/mcp](examples/mcp/).
 
@@ -91,8 +62,6 @@ After the user approves connecting the MCP, client configs for Claude Desktop, C
 ```text
 skills/agentready-tools/
   SKILL.md                 # instructions the agent loads
-  scripts/search.mjs       # Node helper, no npm dependencies
-  scripts/search.sh        # curl + jq helper
   references/readiness.md  # the five agent-readiness checks
 examples/                  # curl, Python, Node, and MCP client snippets
 .claude-plugin/
@@ -103,7 +72,7 @@ examples/                  # curl, Python, Node, and MCP client snippets
 
 ## Tests
 
-A live-catalog smoke test (HTTP endpoints, `/go/` redirects, public MCP tools, helper scripts, and `SKILL.md` frontmatter) is maintained outside this repository so the published plugin bundle stays limited to the skill, manifests, and `assets/logo.svg`.
+A live-catalog smoke test (HTTP endpoints, `/go/` redirects, public MCP tools and `SKILL.md` frontmatter) is maintained outside this repository so the published plugin bundle stays limited to the skill, manifests, and `assets/logo.png`.
 
 
 ## Where to find us
