@@ -1,7 +1,2 @@
-# Kept out of the published Claude plugin bundle.
-# The directory portal held SUBMISSION.md and assets/*.png for review,
-# and flagged tests/run.sh as if it read a credential from the user's machine
-# (it does not; it only curls public AgentReady Tools endpoints).
 SUBMISSION.md
 tests/
-assets/*.png

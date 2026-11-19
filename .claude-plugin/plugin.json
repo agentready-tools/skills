@@ -1,7 +1,7 @@
 {
   "name": "agentready-tools",
   "description": "Find and compare agent-ready APIs, scrapers, and official MCP servers from the AgentReady Tools catalog.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "AgentReady Tools",
     "url": "https://agentready-tools.com"
@@ -16,5 +16,6 @@
     "catalog"
   ],
   "displayName": "AgentReady Tools",
-  "privacyPolicyUrl": "https://agentready-tools.com/privacy"
+  "privacyPolicyUrl": "https://agentready-tools.com/privacy",
+  "mcpServers": "./.mcp.json"
 }
