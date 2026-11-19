@@ -109,4 +109,6 @@ The Claude Code install commands are in [Install](#install) above.
 
 ## License
 
-MIT. See [LICENSE](LICENSE.md).
+MIT. See [LICENSE.md](LICENSE.md).
+
+Directory file allowlist and a local check: [docs/allowlist.md](docs/allowlist.md).
