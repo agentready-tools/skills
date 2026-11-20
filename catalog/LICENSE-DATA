@@ -1,0 +1,15 @@
+AgentReady Tools open catalog data
+
+The AgentReady-authored selection and annotations in catalog.json and catalog.csv
+are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Attribution: AgentReady Tools, https://agentready-tools.com, catalog retrieved
+from https://agentready-tools.com/tools.json. Please retain this attribution and
+identify changes when redistributing or adapting the licensed material.
+
+This license applies only to AgentReady-authored catalog fields and annotations.
+It does not claim ownership of third-party names, marks, or other rights. Vendor
+descriptions, vendor URLs, pricing text, affiliate data, and internal metrics are
+not included in this catalog. The surrounding repository code remains under the
+repository's MIT License.

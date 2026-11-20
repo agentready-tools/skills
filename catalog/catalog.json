@@ -1,0 +1,4521 @@
+{
+  "name": "AgentReady Tools open catalog",
+  "source": "https://agentready-tools.com/tools.json",
+  "source_updated": "2026-11-16",
+  "source_count": 282,
+  "data_license": "CC-BY-4.0",
+  "tools": [
+    {
+      "slug": "17track",
+      "name": "17TRACK",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/17track?ref=github"
+    },
+    {
+      "slug": "affinda",
+      "name": "Affinda Resume Parser",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/affinda?ref=github"
+    },
+    {
+      "slug": "affinity",
+      "name": "Affinity",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/affinity?ref=github"
+    },
+    {
+      "slug": "aftership-tracking",
+      "name": "AfterShip Tracking",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/aftership-tracking?ref=github"
+    },
+    {
+      "slug": "agentpay-checker",
+      "name": "Agent Payment Checker — x402, MPP, L402, UCP & AP2 Detector",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/agentpay-checker?ref=github"
+    },
+    {
+      "slug": "alchemy",
+      "name": "Alchemy",
+      "category": "Crypto and onchain data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/alchemy?ref=github"
+    },
+    {
+      "slug": "alpaca",
+      "name": "Alpaca",
+      "category": "Market and fundamental data APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/alpaca?ref=github"
+    },
+    {
+      "slug": "alpha-vantage",
+      "name": "Alpha Vantage",
+      "category": "Market and fundamental data APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/alpha-vantage?ref=github"
+    },
+    {
+      "slug": "anthropic-claude-api",
+      "name": "Anthropic Claude API",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/anthropic-claude-api?ref=github"
+    },
+    {
+      "slug": "apidojo-tweet-scraper",
+      "name": "Tweet Scraper V2 - X Scraper / Twitter Scraper / X.com Scraper",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apidojo-tweet-scraper?ref=github"
+    },
+    {
+      "slug": "apify-cheerio-scraper",
+      "name": "Cheerio Scraper",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-cheerio-scraper?ref=github"
+    },
+    {
+      "slug": "apify-e-commerce-scraping-tool",
+      "name": "E-commerce Scraping Tool",
+      "category": "Ecommerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-e-commerce-scraping-tool?ref=github"
+    },
+    {
+      "slug": "apify-facebook-marketplace-scraper",
+      "name": "Facebook Marketplace Scraper",
+      "category": "Ecommerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-facebook-marketplace-scraper?ref=github"
+    },
+    {
+      "slug": "apify-facebook-posts-scraper",
+      "name": "Facebook Posts Scraper",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-facebook-posts-scraper?ref=github"
+    },
+    {
+      "slug": "apify-google-search-scraper",
+      "name": "Google Search Results Scraper",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-google-search-scraper?ref=github"
+    },
+    {
+      "slug": "apify-google-trends-scraper",
+      "name": "Google Trends Scraper",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-google-trends-scraper?ref=github"
+    },
+    {
+      "slug": "apify-instagram-comment-scraper",
+      "name": "Instagram Comments Scraper",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-instagram-comment-scraper?ref=github"
+    },
+    {
+      "slug": "apify-instagram-scraper",
+      "name": "Instagram Scraper",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-instagram-scraper?ref=github"
+    },
+    {
+      "slug": "apify-mcp",
+      "name": "Apify MCP server",
+      "category": "Web data, crawling, and search",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-mcp?ref=github"
+    },
+    {
+      "slug": "apify-puppeteer-scraper",
+      "name": "Puppeteer Scraper",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-puppeteer-scraper?ref=github"
+    },
+    {
+      "slug": "apify-rag-web-browser",
+      "name": "RAG Web Browser",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-rag-web-browser?ref=github"
+    },
+    {
+      "slug": "apify-web-scraper",
+      "name": "Web Scraper",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-web-scraper?ref=github"
+    },
+    {
+      "slug": "apify-website-content-crawler",
+      "name": "Website Content Crawler",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apify-website-content-crawler?ref=github"
+    },
+    {
+      "slug": "apollo-io",
+      "name": "Apollo.io",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/apollo-io?ref=github"
+    },
+    {
+      "slug": "applitools-mcp",
+      "name": "Applitools MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/applitools-mcp?ref=github"
+    },
+    {
+      "slug": "appwrite",
+      "name": "Appwrite",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/appwrite?ref=github"
+    },
+    {
+      "slug": "arcade",
+      "name": "Arcade",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/arcade?ref=github"
+    },
+    {
+      "slug": "assemblyai",
+      "name": "AssemblyAI",
+      "category": "Speech",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/assemblyai?ref=github"
+    },
+    {
+      "slug": "ats-jobs",
+      "name": "ATS Job Board API — Greenhouse & Lever Jobs for AI Agents",
+      "category": "Jobs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "no",
+        "tool_annotations": "no",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/ats-jobs?ref=github"
+    },
+    {
+      "slug": "attio",
+      "name": "Attio",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/attio?ref=github"
+    },
+    {
+      "slug": "aviationstack",
+      "name": "Aviationstack",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/aviationstack?ref=github"
+    },
+    {
+      "slug": "batchdata",
+      "name": "BatchData",
+      "category": "Real estate data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/batchdata?ref=github"
+    },
+    {
+      "slug": "bebity-linkedin-jobs-scraper",
+      "name": "🔥 LinkedIn Jobs Scraper",
+      "category": "Jobs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/bebity-linkedin-jobs-scraper?ref=github"
+    },
+    {
+      "slug": "black-forest-labs",
+      "name": "Black Forest Labs (FLUX)",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/black-forest-labs?ref=github"
+    },
+    {
+      "slug": "booking-com-demand-api",
+      "name": "Booking.com Demand API",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/booking-com-demand-api?ref=github"
+    },
+    {
+      "slug": "borderline-indeed-scraper",
+      "name": "🚀 Indeed jobs scraper [PPR]",
+      "category": "Jobs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/borderline-indeed-scraper?ref=github"
+    },
+    {
+      "slug": "braintrust",
+      "name": "Braintrust",
+      "category": "Observability and evals",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/braintrust?ref=github"
+    },
+    {
+      "slug": "browserbase-mcp",
+      "name": "Browserbase MCP server",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/browserbase-mcp?ref=github"
+    },
+    {
+      "slug": "browserless",
+      "name": "Browserless",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/browserless?ref=github"
+    },
+    {
+      "slug": "cal-com",
+      "name": "Cal.com",
+      "category": "Calendar and scheduling",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cal-com?ref=github"
+    },
+    {
+      "slug": "canva",
+      "name": "Canva MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/canva?ref=github"
+    },
+    {
+      "slug": "cartesia",
+      "name": "Cartesia",
+      "category": "Speech",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cartesia?ref=github"
+    },
+    {
+      "slug": "cerebras-inference",
+      "name": "Cerebras Inference",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cerebras-inference?ref=github"
+    },
+    {
+      "slug": "chembl",
+      "name": "ChEMBL",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/chembl?ref=github"
+    },
+    {
+      "slug": "chroma",
+      "name": "Chroma",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/chroma?ref=github"
+    },
+    {
+      "slug": "chromatic",
+      "name": "Chromatic MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/chromatic?ref=github"
+    },
+    {
+      "slug": "clerk",
+      "name": "Clerk",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/clerk?ref=github"
+    },
+    {
+      "slug": "clinicaltrials-gov",
+      "name": "ClinicalTrials.gov API",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/clinicaltrials-gov?ref=github"
+    },
+    {
+      "slug": "clockworks-tiktok-scraper",
+      "name": "TikTok Scraper",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/clockworks-tiktok-scraper?ref=github"
+    },
+    {
+      "slug": "clockworks-tiktok-video-scraper",
+      "name": "TikTok Video Scraper",
+      "category": "Video",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/clockworks-tiktok-video-scraper?ref=github"
+    },
+    {
+      "slug": "close",
+      "name": "Close",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/close?ref=github"
+    },
+    {
+      "slug": "cloudflare-mcp",
+      "name": "Cloudflare MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cloudflare-mcp?ref=github"
+    },
+    {
+      "slug": "cockroachdb",
+      "name": "CockroachDB",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cockroachdb?ref=github"
+    },
+    {
+      "slug": "codat",
+      "name": "Codat",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/codat?ref=github"
+    },
+    {
+      "slug": "code-crafter-leads-finder",
+      "name": "✨Leads Finder - $1.5/1k leads with Emails [Apollo Alternative]",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/code-crafter-leads-finder?ref=github"
+    },
+    {
+      "slug": "cohere",
+      "name": "Cohere",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cohere?ref=github"
+    },
+    {
+      "slug": "coingecko",
+      "name": "CoinGecko API",
+      "category": "Crypto and onchain data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/coingecko?ref=github"
+    },
+    {
+      "slug": "coinmarketcap",
+      "name": "CoinMarketCap API",
+      "category": "Crypto and onchain data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/coinmarketcap?ref=github"
+    },
+    {
+      "slug": "companies-house",
+      "name": "Companies House API",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/companies-house?ref=github"
+    },
+    {
+      "slug": "compass-crawler-google-places",
+      "name": "Google Maps Scraper",
+      "category": "Maps and local",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/compass-crawler-google-places?ref=github"
+    },
+    {
+      "slug": "compass-google-maps-extractor",
+      "name": "Google Maps Extractor",
+      "category": "Maps and local",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/compass-google-maps-extractor?ref=github"
+    },
+    {
+      "slug": "composio",
+      "name": "Composio",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/composio?ref=github"
+    },
+    {
+      "slug": "congress-gov",
+      "name": "Congress.gov API",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/congress-gov?ref=github"
+    },
+    {
+      "slug": "consensus",
+      "name": "Consensus",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/consensus?ref=github"
+    },
+    {
+      "slug": "context7",
+      "name": "Context7",
+      "category": "Docs and reference servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/context7?ref=github"
+    },
+    {
+      "slug": "convex",
+      "name": "Convex",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/convex?ref=github"
+    },
+    {
+      "slug": "copper",
+      "name": "Copper",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/copper?ref=github"
+    },
+    {
+      "slug": "courtlistener",
+      "name": "CourtListener",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/courtlistener?ref=github"
+    },
+    {
+      "slug": "crossmint",
+      "name": "Crossmint",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/crossmint?ref=github"
+    },
+    {
+      "slug": "curious-coder-linkedin-jobs-scraper",
+      "name": "Linkedin Jobs Scraper",
+      "category": "Jobs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/curious-coder-linkedin-jobs-scraper?ref=github"
+    },
+    {
+      "slug": "dailymed",
+      "name": "DailyMed",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/dailymed?ref=github"
+    },
+    {
+      "slug": "daytona",
+      "name": "Daytona",
+      "category": "Code sandboxes",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/daytona?ref=github"
+    },
+    {
+      "slug": "deepgram",
+      "name": "Deepgram",
+      "category": "Speech",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/deepgram?ref=github"
+    },
+    {
+      "slug": "deepinfra",
+      "name": "DeepInfra",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/deepinfra?ref=github"
+    },
+    {
+      "slug": "deepl",
+      "name": "DeepL API",
+      "category": "Translation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/deepl?ref=github"
+    },
+    {
+      "slug": "deepseek-api",
+      "name": "DeepSeek API",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/deepseek-api?ref=github"
+    },
+    {
+      "slug": "deque-axe-mcp",
+      "name": "Axe MCP Server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/deque-axe-mcp?ref=github"
+    },
+    {
+      "slug": "dev-fusion-linkedin-profile-scraper",
+      "name": "✨Mass Linkedin Profile Scraper with Email 📧 (No Cookies)",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/dev-fusion-linkedin-profile-scraper?ref=github"
+    },
+    {
+      "slug": "dhl-developer",
+      "name": "DHL Developer",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/dhl-developer?ref=github"
+    },
+    {
+      "slug": "dropcontact",
+      "name": "Dropcontact",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/dropcontact?ref=github"
+    },
+    {
+      "slug": "drugbank",
+      "name": "DrugBank",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/drugbank?ref=github"
+    },
+    {
+      "slug": "duffel",
+      "name": "Duffel",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/duffel?ref=github"
+    },
+    {
+      "slug": "e2b",
+      "name": "E2B",
+      "category": "Code sandboxes",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/e2b?ref=github"
+    },
+    {
+      "slug": "easypost",
+      "name": "EasyPost",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/easypost?ref=github"
+    },
+    {
+      "slug": "easyship",
+      "name": "Easyship",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/easyship?ref=github"
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "Speech",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/elevenlabs?ref=github"
+    },
+    {
+      "slug": "elicit",
+      "name": "Elicit",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/elicit?ref=github"
+    },
+    {
+      "slug": "eodhd",
+      "name": "EODHD APIs",
+      "category": "Market and fundamental data APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/eodhd?ref=github"
+    },
+    {
+      "slug": "europe-pmc",
+      "name": "Europe PMC",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/europe-pmc?ref=github"
+    },
+    {
+      "slug": "event-registry",
+      "name": "Event Registry (NewsAPI.ai)",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/event-registry?ref=github"
+    },
+    {
+      "slug": "exa-mcp",
+      "name": "Exa MCP",
+      "category": "Web data, crawling, and search",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/exa-mcp?ref=github"
+    },
+    {
+      "slug": "expedia-rapid",
+      "name": "Expedia Rapid API",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/expedia-rapid?ref=github"
+    },
+    {
+      "slug": "extend",
+      "name": "Extend",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/extend?ref=github"
+    },
+    {
+      "slug": "fal-ai",
+      "name": "fal.ai",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/fal-ai?ref=github"
+    },
+    {
+      "slug": "fdb-medknowledge",
+      "name": "FDB MedKnowledge",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/fdb-medknowledge?ref=github"
+    },
+    {
+      "slug": "federal-register",
+      "name": "Federal Register API",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/federal-register?ref=github"
+    },
+    {
+      "slug": "fedex-developer",
+      "name": "FedEx Developer",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/fedex-developer?ref=github"
+    },
+    {
+      "slug": "figma",
+      "name": "Figma MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/figma?ref=github"
+    },
+    {
+      "slug": "financial-modeling-prep",
+      "name": "Financial Modeling Prep",
+      "category": "Market and fundamental data APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/financial-modeling-prep?ref=github"
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/firebase?ref=github"
+    },
+    {
+      "slug": "firecrawl-mcp",
+      "name": "Firecrawl MCP server",
+      "category": "Web data, crawling, and search",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/firecrawl-mcp?ref=github"
+    },
+    {
+      "slug": "fireworks-ai",
+      "name": "Fireworks AI",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/fireworks-ai?ref=github"
+    },
+    {
+      "slug": "flightaware-aeroapi",
+      "name": "FlightAware AeroAPI",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/flightaware-aeroapi?ref=github"
+    },
+    {
+      "slug": "framer",
+      "name": "Framer MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/framer?ref=github"
+    },
+    {
+      "slug": "freshbooks",
+      "name": "FreshBooks",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/freshbooks?ref=github"
+    },
+    {
+      "slug": "freshworks-crm",
+      "name": "Freshworks CRM",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/freshworks-crm?ref=github"
+    },
+    {
+      "slug": "fullcontact",
+      "name": "FullContact",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/fullcontact?ref=github"
+    },
+    {
+      "slug": "gdelt-doc-api",
+      "name": "GDELT DOC 2.0 API",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/gdelt-doc-api?ref=github"
+    },
+    {
+      "slug": "geoapify",
+      "name": "Geoapify",
+      "category": "Maps and geocoding APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/geoapify?ref=github"
+    },
+    {
+      "slug": "github-mcp",
+      "name": "GitHub MCP server",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/github-mcp?ref=github"
+    },
+    {
+      "slug": "gladia",
+      "name": "Gladia",
+      "category": "Speech",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/gladia?ref=github"
+    },
+    {
+      "slug": "gocardless",
+      "name": "GoCardless",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/gocardless?ref=github"
+    },
+    {
+      "slug": "google-gemini-api",
+      "name": "Google Gemini API",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-gemini-api?ref=github"
+    },
+    {
+      "slug": "google-image-generation",
+      "name": "Google image generation (Gemini / Imagen)",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-image-generation?ref=github"
+    },
+    {
+      "slug": "govinfo",
+      "name": "GovInfo",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/govinfo?ref=github"
+    },
+    {
+      "slug": "groq",
+      "name": "Groq",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/groq?ref=github"
+    },
+    {
+      "slug": "harvestapi-linkedin-profile-search",
+      "name": "LinkedIn Profile Search Scraper (No Cookies) Find all people",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/harvestapi-linkedin-profile-search?ref=github"
+    },
+    {
+      "slug": "helicone",
+      "name": "Helicone",
+      "category": "Observability and evals",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/helicone?ref=github"
+    },
+    {
+      "slug": "helius",
+      "name": "Helius",
+      "category": "Crypto and onchain data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/helius?ref=github"
+    },
+    {
+      "slug": "hotelbeds",
+      "name": "Hotelbeds APItude",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/hotelbeds?ref=github"
+    },
+    {
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/hubspot?ref=github"
+    },
+    {
+      "slug": "huggingface-mcp",
+      "name": "Hugging Face MCP",
+      "category": "Docs and reference servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/huggingface-mcp?ref=github"
+    },
+    {
+      "slug": "hunter-io",
+      "name": "Hunter.io",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/hunter-io?ref=github"
+    },
+    {
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/ideogram?ref=github"
+    },
+    {
+      "slug": "instantly",
+      "name": "Instantly",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/instantly?ref=github"
+    },
+    {
+      "slug": "invideoiq-video-transcript-scraper",
+      "name": "Video Transcript Scraper: Youtube, X, Facebook, Tiktok, etc.",
+      "category": "Video",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/invideoiq-video-transcript-scraper?ref=github"
+    },
+    {
+      "slug": "junglee-amazon-crawler",
+      "name": "Amazon Product Scraper",
+      "category": "Ecommerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/junglee-amazon-crawler?ref=github"
+    },
+    {
+      "slug": "junglee-amazon-reviews-scraper",
+      "name": "Amazon Reviews Scraper",
+      "category": "Ecommerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/junglee-amazon-reviews-scraper?ref=github"
+    },
+    {
+      "slug": "junglee-free-amazon-product-scraper",
+      "name": "Amazon Scraper",
+      "category": "Ecommerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/junglee-free-amazon-product-scraper?ref=github"
+    },
+    {
+      "slug": "keap",
+      "name": "Keap",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/keap?ref=github"
+    },
+    {
+      "slug": "kernel",
+      "name": "Kernel",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/kernel?ref=github"
+    },
+    {
+      "slug": "landing-ai",
+      "name": "Landing AI",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/landing-ai?ref=github"
+    },
+    {
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "category": "Observability and evals",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/langfuse?ref=github"
+    },
+    {
+      "slug": "langsmith",
+      "name": "LangSmith",
+      "category": "Observability and evals",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/langsmith?ref=github"
+    },
+    {
+      "slug": "langwatch",
+      "name": "LangWatch",
+      "category": "Observability and evals",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/langwatch?ref=github"
+    },
+    {
+      "slug": "lemlist",
+      "name": "lemlist",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/lemlist?ref=github"
+    },
+    {
+      "slug": "leonardo",
+      "name": "Leonardo",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/leonardo?ref=github"
+    },
+    {
+      "slug": "letta",
+      "name": "Letta",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/letta?ref=github"
+    },
+    {
+      "slug": "linear-mcp",
+      "name": "Linear MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/linear-mcp?ref=github"
+    },
+    {
+      "slug": "liteapi",
+      "name": "LiteAPI (Nuitee Connect)",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/liteapi?ref=github"
+    },
+    {
+      "slug": "llamaparse",
+      "name": "LlamaParse",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/llamaparse?ref=github"
+    },
+    {
+      "slug": "locationiq",
+      "name": "LocationIQ",
+      "category": "Maps and geocoding APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/locationiq?ref=github"
+    },
+    {
+      "slug": "lukaskrivka-article-extractor-smart",
+      "name": "Smart Article Extractor",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/lukaskrivka-article-extractor-smart?ref=github"
+    },
+    {
+      "slug": "luma-ai",
+      "name": "Luma AI",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/luma-ai?ref=github"
+    },
+    {
+      "slug": "lusha",
+      "name": "Lusha",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/lusha?ref=github"
+    },
+    {
+      "slug": "mailgun",
+      "name": "Mailgun",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mailgun?ref=github"
+    },
+    {
+      "slug": "mapbox",
+      "name": "Mapbox",
+      "category": "Maps and geocoding APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mapbox?ref=github"
+    },
+    {
+      "slug": "marketstack",
+      "name": "Marketstack by APILayer",
+      "category": "Market and fundamental data APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/marketstack?ref=github"
+    },
+    {
+      "slug": "massive",
+      "name": "Massive",
+      "category": "Market and fundamental data APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/massive?ref=github"
+    },
+    {
+      "slug": "maxcopell-tripadvisor",
+      "name": "Tripadvisor Scraper",
+      "category": "Maps and local",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/maxcopell-tripadvisor?ref=github"
+    },
+    {
+      "slug": "maxcopell-tripadvisor-reviews",
+      "name": "Tripadvisor Reviews Scraper",
+      "category": "Maps and local",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/maxcopell-tripadvisor-reviews?ref=github"
+    },
+    {
+      "slug": "mcp-reference-servers",
+      "name": "MCP reference servers",
+      "category": "Docs and reference servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mcp-reference-servers?ref=github"
+    },
+    {
+      "slug": "medi-span",
+      "name": "Medi-Span",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/medi-span?ref=github"
+    },
+    {
+      "slug": "mediastack",
+      "name": "Mediastack by APILayer",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mediastack?ref=github"
+    },
+    {
+      "slug": "mediawiki-action-api",
+      "name": "MediaWiki Action API",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mediawiki-action-api?ref=github"
+    },
+    {
+      "slug": "medlineplus",
+      "name": "MedlinePlus Web Service",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/medlineplus?ref=github"
+    },
+    {
+      "slug": "mem0",
+      "name": "Mem0",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mem0?ref=github"
+    },
+    {
+      "slug": "mercury",
+      "name": "Mercury",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mercury?ref=github"
+    },
+    {
+      "slug": "michael-g-y-combinator-scraper",
+      "name": "Y Combinator Scraper",
+      "category": "Jobs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/michael-g-y-combinator-scraper?ref=github"
+    },
+    {
+      "slug": "misceres-indeed-scraper",
+      "name": "Indeed Scraper",
+      "category": "Jobs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/misceres-indeed-scraper?ref=github"
+    },
+    {
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mistral-ai?ref=github"
+    },
+    {
+      "slug": "modal",
+      "name": "Modal",
+      "category": "Code sandboxes",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/modal?ref=github"
+    },
+    {
+      "slug": "modern-treasury",
+      "name": "Modern Treasury",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/modern-treasury?ref=github"
+    },
+    {
+      "slug": "monday-com",
+      "name": "Monday.com",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/monday-com?ref=github"
+    },
+    {
+      "slug": "mongodb-atlas",
+      "name": "MongoDB Atlas",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mongodb-atlas?ref=github"
+    },
+    {
+      "slug": "moralis",
+      "name": "Moralis",
+      "category": "Crypto and onchain data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/moralis?ref=github"
+    },
+    {
+      "slug": "neon",
+      "name": "Neon",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/neon?ref=github"
+    },
+    {
+      "slug": "nevermined",
+      "name": "Nevermined",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/nevermined?ref=github"
+    },
+    {
+      "slug": "new-york-times-apis",
+      "name": "New York Times APIs",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/new-york-times-apis?ref=github"
+    },
+    {
+      "slug": "newsapi",
+      "name": "NewsAPI",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/newsapi?ref=github"
+    },
+    {
+      "slug": "newscatcher",
+      "name": "NewsCatcher",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/newscatcher?ref=github"
+    },
+    {
+      "slug": "newsdata-io",
+      "name": "Newsdata.io",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/newsdata-io?ref=github"
+    },
+    {
+      "slug": "nih-reporter",
+      "name": "NIH RePORTER API",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/nih-reporter?ref=github"
+    },
+    {
+      "slug": "notion-mcp",
+      "name": "Notion MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/notion-mcp?ref=github"
+    },
+    {
+      "slug": "nylas",
+      "name": "Nylas",
+      "category": "Calendar and scheduling",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/nylas?ref=github"
+    },
+    {
+      "slug": "open-meteo",
+      "name": "Open-Meteo",
+      "category": "Weather",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/open-meteo?ref=github"
+    },
+    {
+      "slug": "open-targets",
+      "name": "Open Targets Platform",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/open-targets?ref=github"
+    },
+    {
+      "slug": "openai-api",
+      "name": "OpenAI API",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openai-api?ref=github"
+    },
+    {
+      "slug": "openai-images",
+      "name": "OpenAI Images",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openai-images?ref=github"
+    },
+    {
+      "slug": "opencage",
+      "name": "OpenCage Geocoding",
+      "category": "Maps and geocoding APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/opencage?ref=github"
+    },
+    {
+      "slug": "opencorporates",
+      "name": "OpenCorporates",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/opencorporates?ref=github"
+    },
+    {
+      "slug": "openfda",
+      "name": "openFDA",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openfda?ref=github"
+    },
+    {
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openrouter?ref=github"
+    },
+    {
+      "slug": "opensanctions",
+      "name": "OpenSanctions",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/opensanctions?ref=github"
+    },
+    {
+      "slug": "openweathermap",
+      "name": "OpenWeather",
+      "category": "Weather",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openweathermap?ref=github"
+    },
+    {
+      "slug": "oxylabs-ecommerce-scraper-api",
+      "name": "Oxylabs E-Commerce Scraper API",
+      "category": "Web scraping APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/oxylabs-ecommerce-scraper-api?ref=github"
+    },
+    {
+      "slug": "oxylabs-web-api",
+      "name": "Oxylabs Web API",
+      "category": "Web scraping APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/oxylabs-web-api?ref=github"
+    },
+    {
+      "slug": "peakydev-leads-scraper-ppe",
+      "name": "Leads Scraper ✅ $1/1k with EMAILS ✅ Apollo | LinkedIn Profile",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/peakydev-leads-scraper-ppe?ref=github"
+    },
+    {
+      "slug": "people-data-labs",
+      "name": "People Data Labs",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/people-data-labs?ref=github"
+    },
+    {
+      "slug": "perigon",
+      "name": "Perigon",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/perigon?ref=github"
+    },
+    {
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pinecone?ref=github"
+    },
+    {
+      "slug": "pipedrive",
+      "name": "Pipedrive",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pipedrive?ref=github"
+    },
+    {
+      "slug": "pipelinelabs-lead-scraper-apollo-zoominfo-lusha",
+      "name": "🎉 Leads Scraper ✅ $0.8/1k Leads ✅ 250M+ Database ✅ Like Apollo",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pipelinelabs-lead-scraper-apollo-zoominfo-lusha?ref=github"
+    },
+    {
+      "slug": "pipelinelabs-lead-scraper-apollo-zoominfo-lusha-ppe",
+      "name": "🎉Leads Scraper ✅ $1/1k Leads ✅ 50K/Run With EMAILS✅Like Apollo",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pipelinelabs-lead-scraper-apollo-zoominfo-lusha-ppe?ref=github"
+    },
+    {
+      "slug": "plaid",
+      "name": "Plaid",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/plaid?ref=github"
+    },
+    {
+      "slug": "planetscale",
+      "name": "PlanetScale",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/planetscale?ref=github"
+    },
+    {
+      "slug": "playwright-cloud-browsers",
+      "name": "Playwright Cloud Browsers",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/playwright-cloud-browsers?ref=github"
+    },
+    {
+      "slug": "playwright-mcp",
+      "name": "Playwright MCP",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/playwright-mcp?ref=github"
+    },
+    {
+      "slug": "polar",
+      "name": "Polar",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/polar?ref=github"
+    },
+    {
+      "slug": "postmark",
+      "name": "Postmark",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/postmark?ref=github"
+    },
+    {
+      "slug": "prisma-postgres",
+      "name": "Prisma Postgres",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/prisma-postgres?ref=github"
+    },
+    {
+      "slug": "prospeo",
+      "name": "Prospeo",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/prospeo?ref=github"
+    },
+    {
+      "slug": "proxycurl",
+      "name": "Proxycurl (Nubela)",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/proxycurl?ref=github"
+    },
+    {
+      "slug": "pubchem",
+      "name": "PubChem",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pubchem?ref=github"
+    },
+    {
+      "slug": "pubmed-eutilities",
+      "name": "PubMed / NCBI E-utilities",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pubmed-eutilities?ref=github"
+    },
+    {
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/qdrant?ref=github"
+    },
+    {
+      "slug": "quickbooks-online",
+      "name": "QuickBooks Online",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/quickbooks-online?ref=github"
+    },
+    {
+      "slug": "quicknode",
+      "name": "QuickNode",
+      "category": "Crypto and onchain data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/quicknode?ref=github"
+    },
+    {
+      "slug": "radeance-ahrefs-scraper",
+      "name": "Ahrefs Scraper",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/radeance-ahrefs-scraper?ref=github"
+    },
+    {
+      "slug": "railway",
+      "name": "Railway",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/railway?ref=github"
+    },
+    {
+      "slug": "ramp",
+      "name": "Ramp",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/ramp?ref=github"
+    },
+    {
+      "slug": "recraft",
+      "name": "Recraft",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/recraft?ref=github"
+    },
+    {
+      "slug": "reducto",
+      "name": "Reducto",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/reducto?ref=github"
+    },
+    {
+      "slug": "regulations-gov",
+      "name": "Regulations.gov API",
+      "category": "Legal and government data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/regulations-gov?ref=github"
+    },
+    {
+      "slug": "rentcast",
+      "name": "RentCast",
+      "category": "Real estate data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/rentcast?ref=github"
+    },
+    {
+      "slug": "replicate",
+      "name": "Replicate",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/replicate?ref=github"
+    },
+    {
+      "slug": "resend",
+      "name": "Resend",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/resend?ref=github"
+    },
+    {
+      "slug": "rocketreach",
+      "name": "RocketReach",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/rocketreach?ref=github"
+    },
+    {
+      "slug": "runway",
+      "name": "Runway",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/runway?ref=github"
+    },
+    {
+      "slug": "rxnorm-rxnav",
+      "name": "RxNorm / RxNav",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/rxnorm-rxnav?ref=github"
+    },
+    {
+      "slug": "sam-gov-opportunities",
+      "name": "SAM.gov Contract Opportunities API — Federal RFPs & Bids",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "no",
+        "tool_annotations": "no",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/sam-gov-opportunities?ref=github"
+    },
+    {
+      "slug": "scite",
+      "name": "scite",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/scite?ref=github"
+    },
+    {
+      "slug": "scraperapi",
+      "name": "ScraperAPI",
+      "category": "Web scraping APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/scraperapi?ref=github"
+    },
+    {
+      "slug": "scraperlink-google-search-results-serp-scraper",
+      "name": "Google Search Results (~$0.05/1K Results)",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/scraperlink-google-search-results-serp-scraper?ref=github"
+    },
+    {
+      "slug": "semantic-scholar",
+      "name": "Semantic Scholar Academic Graph API",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/semantic-scholar?ref=github"
+    },
+    {
+      "slug": "sentry-mcp",
+      "name": "Sentry MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/sentry-mcp?ref=github"
+    },
+    {
+      "slug": "shadcn-ui",
+      "name": "shadcn/ui MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/shadcn-ui?ref=github"
+    },
+    {
+      "slug": "ship24",
+      "name": "Ship24",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/ship24?ref=github"
+    },
+    {
+      "slug": "shipengine",
+      "name": "ShipEngine",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/shipengine?ref=github"
+    },
+    {
+      "slug": "shippo",
+      "name": "Shippo",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/shippo?ref=github"
+    },
+    {
+      "slug": "silva95gustavo-google-ads-scraper",
+      "name": "Google Ads Scraper",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/silva95gustavo-google-ads-scraper?ref=github"
+    },
+    {
+      "slug": "skyfire",
+      "name": "Skyfire",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/skyfire?ref=github"
+    },
+    {
+      "slug": "skyscanner-travel-api",
+      "name": "Skyscanner Travel APIs",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/skyscanner-travel-api?ref=github"
+    },
+    {
+      "slug": "snov-io",
+      "name": "Snov.io",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/snov-io?ref=github"
+    },
+    {
+      "slug": "stability-ai",
+      "name": "Stability AI",
+      "category": "Image and video generation APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/stability-ai?ref=github"
+    },
+    {
+      "slug": "steel",
+      "name": "Steel",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/steel?ref=github"
+    },
+    {
+      "slug": "storybook",
+      "name": "Storybook MCP",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/storybook?ref=github"
+    },
+    {
+      "slug": "streamers-youtube-scraper",
+      "name": "YouTube Scraper",
+      "category": "Video",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/streamers-youtube-scraper?ref=github"
+    },
+    {
+      "slug": "stripe-financial-connections",
+      "name": "Stripe Financial Connections",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/stripe-financial-connections?ref=github"
+    },
+    {
+      "slug": "stripe-mcp",
+      "name": "Stripe MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/stripe-mcp?ref=github"
+    },
+    {
+      "slug": "stytch",
+      "name": "Stytch",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/stytch?ref=github"
+    },
+    {
+      "slug": "supabase-mcp",
+      "name": "Supabase MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/supabase-mcp?ref=github"
+    },
+    {
+      "slug": "supreme-coder-linkedin-post",
+      "name": "Linkedin Post Scraper ✅ No cookies",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/supreme-coder-linkedin-post?ref=github"
+    },
+    {
+      "slug": "teller",
+      "name": "Teller",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/teller?ref=github"
+    },
+    {
+      "slug": "telnyx",
+      "name": "Telnyx",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/telnyx?ref=github"
+    },
+    {
+      "slug": "textkernel-tx-platform",
+      "name": "Textkernel Tx Platform",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/textkernel-tx-platform?ref=github"
+    },
+    {
+      "slug": "the-companies-api",
+      "name": "The Companies API",
+      "category": "Company and people enrichment (official APIs)",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/the-companies-api?ref=github"
+    },
+    {
+      "slug": "the-guardian-open-platform",
+      "name": "The Guardian Open Platform",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/the-guardian-open-platform?ref=github"
+    },
+    {
+      "slug": "tictechid-anoxvanzi-transcriber",
+      "name": "TikTok | Instagram | Facebook | YouTube Shorts Transcriber",
+      "category": "Video",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/tictechid-anoxvanzi-transcriber?ref=github"
+    },
+    {
+      "slug": "tiger-data",
+      "name": "Tiger Data (Timescale)",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/tiger-data?ref=github"
+    },
+    {
+      "slug": "together-ai",
+      "name": "Together AI",
+      "category": "LLM inference and AI gateways",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/together-ai?ref=github"
+    },
+    {
+      "slug": "topaz-sharingan-youtube-transcript-scraper-1",
+      "name": "YouTube Transcript Ninja ⚡️🥷⚡",
+      "category": "Video",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/topaz-sharingan-youtube-transcript-scraper-1?ref=github"
+    },
+    {
+      "slug": "trackingmore",
+      "name": "TrackingMore",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/trackingmore?ref=github"
+    },
+    {
+      "slug": "travelpayouts",
+      "name": "Travelpayouts",
+      "category": "Flights and travel",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/travelpayouts?ref=github"
+    },
+    {
+      "slug": "tri-angle-airbnb-scraper",
+      "name": "Airbnb Scraper",
+      "category": "Maps and local",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/tri-angle-airbnb-scraper?ref=github"
+    },
+    {
+      "slug": "tri-angle-similarweb-scraper",
+      "name": "Similarweb Scraper",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/tri-angle-similarweb-scraper?ref=github"
+    },
+    {
+      "slug": "trudax-reddit-scraper-lite",
+      "name": "Reddit Scraper Lite",
+      "category": "Social media",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/trudax-reddit-scraper-lite?ref=github"
+    },
+    {
+      "slug": "truelayer",
+      "name": "TrueLayer",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/truelayer?ref=github"
+    },
+    {
+      "slug": "turbopuffer",
+      "name": "turbopuffer",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/turbopuffer?ref=github"
+    },
+    {
+      "slug": "turso",
+      "name": "Turso",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/turso?ref=github"
+    },
+    {
+      "slug": "twilio",
+      "name": "Twilio",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/twilio?ref=github"
+    },
+    {
+      "slug": "umls",
+      "name": "UMLS Terminology Services",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/umls?ref=github"
+    },
+    {
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/unstructured?ref=github"
+    },
+    {
+      "slug": "upstash",
+      "name": "Upstash",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/upstash?ref=github"
+    },
+    {
+      "slug": "url-screenshot",
+      "name": "Website Screenshot API — URL to PNG/JPEG/PDF for AI Agents",
+      "category": "Web pages and crawlers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "no",
+        "tool_annotations": "no",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/url-screenshot?ref=github"
+    },
+    {
+      "slug": "usaspending-awards",
+      "name": "USAspending Awards API — Federal Contract Awards & Grants",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/usaspending-awards?ref=github"
+    },
+    {
+      "slug": "usps-apis",
+      "name": "USPS APIs",
+      "category": "Shipping, logistics, and tracking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/usps-apis?ref=github"
+    },
+    {
+      "slug": "vercel-mcp",
+      "name": "Vercel MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/vercel-mcp?ref=github"
+    },
+    {
+      "slug": "visual-crossing",
+      "name": "Visual Crossing Weather",
+      "category": "Weather",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/visual-crossing?ref=github"
+    },
+    {
+      "slug": "weatherapi",
+      "name": "WeatherAPI",
+      "category": "Weather",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/weatherapi?ref=github"
+    },
+    {
+      "slug": "weatherstack",
+      "name": "Weatherstack",
+      "category": "Weather",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/weatherstack?ref=github"
+    },
+    {
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/weaviate?ref=github"
+    },
+    {
+      "slug": "webflow",
+      "name": "Webflow MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/webflow?ref=github"
+    },
+    {
+      "slug": "who-icd-11",
+      "name": "WHO ICD-11 API",
+      "category": "Health and biomedical data",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/who-icd-11?ref=github"
+    },
+    {
+      "slug": "wikidata-rest-api",
+      "name": "Wikidata REST API",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/wikidata-rest-api?ref=github"
+    },
+    {
+      "slug": "wise",
+      "name": "Wise",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/wise?ref=github"
+    },
+    {
+      "slug": "workos",
+      "name": "WorkOS",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/workos?ref=github"
+    },
+    {
+      "slug": "world-news-api",
+      "name": "World News API",
+      "category": "News and current-events APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/world-news-api?ref=github"
+    },
+    {
+      "slug": "xata",
+      "name": "Xata",
+      "category": "Managed databases and backend platforms",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/xata?ref=github"
+    },
+    {
+      "slug": "xero",
+      "name": "Xero",
+      "category": "Banking, accounting, and open banking",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/xero?ref=github"
+    },
+    {
+      "slug": "zep",
+      "name": "Zep",
+      "category": "Vector databases and memory",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/zep?ref=github"
+    },
+    {
+      "slug": "zoho-crm",
+      "name": "Zoho CRM",
+      "category": "CRM and official sales APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/zoho-crm?ref=github"
+    }
+  ]
+}
