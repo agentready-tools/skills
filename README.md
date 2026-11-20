@@ -2,6 +2,13 @@
 
 An [Agent Skill](https://agentskills.io/specification) that teaches an AI agent how to search the [AgentReady Tools](https://agentready-tools.com) catalog and pick an API, scraper, official MCP server, or data source for a task.
 
+## Open catalog
+
+Browse the generated [JSON catalog](catalog/catalog.json) or [CSV catalog](catalog/catalog.csv), with more than 250 listings. It includes AgentReady-authored categories and readiness checks, MCP status, and links to each AgentReady tool page. It excludes vendor descriptions and vendor URLs. OpenAPI status is null when the source has no separately verified OpenAPI flag.
+
+See the [data license and attribution](catalog/LICENSE-DATA). The catalog refreshes daily from the public [tools.json](https://agentready-tools.com/tools.json).
+
+
 The catalog is public. It lists more than 250 agent-ready tools in [tools.json](https://agentready-tools.com/tools.json). This repo is the skill, not the catalog itself. Some outbound links on the AgentReady directory may be affiliate links; see [the directory](https://agentready-tools.com/directory) for the disclosure. Privacy policy: [https://agentready-tools.com/privacy](https://agentready-tools.com/privacy). Listings of financial data APIs are data and tools only, not investment advice.
 
 ## Install
