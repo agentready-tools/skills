@@ -1,0 +1,37 @@
+{
+  "updated": "2026-11-20",
+  "tools": [
+    {
+      "slug": "example-search-mcp",
+      "name": "Example Search MCP",
+      "category": "Search",
+      "mcp": true,
+      "description": "Vendor-written text must not be copied.",
+      "url": "https://vendor.example/docs?utm_source=private",
+      "go": "https://agentready-tools.com/go/example-search-mcp",
+      "pricing": "internal and vendor data must not be copied",
+      "ratings": { "agent_readiness": { "checks": [
+        { "id": "machine_readable", "value": "yes" },
+        { "id": "auth_type", "value": "unknown" },
+        { "id": "pay_per_use", "value": "yes" },
+        { "id": "agent_controls", "value": "unknown" },
+        { "id": "tool_annotations", "value": "unknown" },
+        { "id": "liveness", "value": "no" }
+      ] } }
+    },
+    {
+      "slug": "example-weather-api",
+      "name": "Example Weather API",
+      "category": "Weather",
+      "mcp": false,
+      "ratings": { "agent_readiness": { "checks": [
+        { "id": "machine_readable", "value": "unknown" },
+        { "id": "auth_type", "value": "unknown" },
+        { "id": "pay_per_use", "value": "unknown" },
+        { "id": "agent_controls", "value": "unknown" },
+        { "id": "tool_annotations", "value": "unknown" },
+        { "id": "liveness", "value": "unknown" }
+      ] } }
+    }
+  ]
+}
