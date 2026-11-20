@@ -1,0 +1,59 @@
+name: Update open catalog
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "catalog/**"
+      - ".github/workflows/update-catalog.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build fixture catalog
+        run: node catalog/scripts/build-catalog.mjs --input catalog/fixtures/tools.json --output /tmp/catalog.json --csv /tmp/catalog.csv
+      - name: Validate fixture catalog
+        run: node catalog/scripts/check-catalog.mjs /tmp/catalog.json 2
+      - name: Ensure excluded fields stay excluded
+        run: |
+          if grep -Eiq 'vendor-written text|utm_source|internal and vendor data|/go/' /tmp/catalog.json /tmp/catalog.csv; then
+            echo "Excluded source data leaked into catalog output"
+            exit 1
+          fi
+
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: validate-fixture
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild from live public catalog
+        run: node catalog/scripts/build-catalog.mjs
+      - name: Validate live catalog
+        run: node catalog/scripts/check-catalog.mjs catalog/catalog.json 1
+      - name: Commit if data changed
+        run: |
+          if git diff --quiet -- catalog/catalog.json catalog/catalog.csv; then
+            echo "Catalog is already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/catalog.json catalog/catalog.csv
+          git commit -m "chore: refresh open catalog"
+          git push
