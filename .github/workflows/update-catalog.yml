@@ -21,9 +21,15 @@ jobs:
         with:
           node-version: 22
       - name: Build fixture catalog
-        run: node catalog/scripts/build-catalog.mjs --input catalog/fixtures/tools.json --output /tmp/catalog.json --csv /tmp/catalog.csv
+        run: node catalog/scripts/build-catalog.mjs --input catalog/fixtures/tools.json --output /tmp/catalog.json --csv /tmp/catalog.csv --min-rows 2
       - name: Validate fixture catalog
         run: node catalog/scripts/check-catalog.mjs /tmp/catalog.json 2
+      - name: Reject fixture below the configured minimum
+        run: |
+          if node catalog/scripts/build-catalog.mjs --input catalog/fixtures/tools.json --output /tmp/too-small.json --csv /tmp/too-small.csv --min-rows 3; then
+            echo "Expected the undersized fixture to fail the row-count guard"
+            exit 1
+          fi
       - name: Ensure excluded fields stay excluded
         run: |
           if grep -Eiq 'vendor-written text|utm_source|internal and vendor data|/go/' /tmp/catalog.json /tmp/catalog.csv; then
@@ -45,7 +51,7 @@ jobs:
       - name: Rebuild from live public catalog
         run: node catalog/scripts/build-catalog.mjs
       - name: Validate live catalog
-        run: node catalog/scripts/check-catalog.mjs catalog/catalog.json 1
+        run: node catalog/scripts/check-catalog.mjs catalog/catalog.json 250
       - name: Commit if data changed
         run: |
           if git diff --quiet -- catalog/catalog.json catalog/catalog.csv; then
