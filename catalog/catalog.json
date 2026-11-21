@@ -2,7 +2,7 @@
   "name": "AgentReady Tools open catalog",
   "source": "https://agentready-tools.com/tools.json",
   "source_updated": "2026-11-16",
-  "source_count": 282,
+  "source_count": 304,
   "data_license": "CC-BY-4.0",
   "tools": [
     {
@@ -86,6 +86,22 @@
       "agentready_url": "https://agentready-tools.com/tools/agentpay-checker?ref=github"
     },
     {
+      "slug": "airtable-mcp",
+      "name": "Airtable MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/airtable-mcp?ref=github"
+    },
+    {
       "slug": "alchemy",
       "name": "Alchemy",
       "category": "Crypto and onchain data",
@@ -132,6 +148,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/alpha-vantage?ref=github"
+    },
+    {
+      "slug": "amplitude-mcp",
+      "name": "Amplitude MCP server",
+      "category": "Data and product analytics",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/amplitude-mcp?ref=github"
     },
     {
       "slug": "anthropic-claude-api",
@@ -438,6 +470,22 @@
       "agentready_url": "https://agentready-tools.com/tools/arcade?ref=github"
     },
     {
+      "slug": "asana-mcp",
+      "name": "Asana MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/asana-mcp?ref=github"
+    },
+    {
       "slug": "assemblyai",
       "name": "AssemblyAI",
       "category": "Speech",
@@ -452,6 +500,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/assemblyai?ref=github"
+    },
+    {
+      "slug": "atlassian-mcp",
+      "name": "Atlassian MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/atlassian-mcp?ref=github"
     },
     {
       "slug": "ats-jobs",
@@ -532,6 +596,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/bebity-linkedin-jobs-scraper?ref=github"
+    },
+    {
+      "slug": "bigquery-mcp",
+      "name": "BigQuery MCP server",
+      "category": "Data and product analytics",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/bigquery-mcp?ref=github"
     },
     {
       "slug": "black-forest-labs",
@@ -1142,6 +1222,22 @@
       "agentready_url": "https://agentready-tools.com/tools/dailymed?ref=github"
     },
     {
+      "slug": "datadog-mcp",
+      "name": "Datadog MCP server",
+      "category": "DevOps, cloud and code security",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/datadog-mcp?ref=github"
+    },
+    {
       "slug": "daytona",
       "name": "Daytona",
       "category": "Code sandboxes",
@@ -1156,6 +1252,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/daytona?ref=github"
+    },
+    {
+      "slug": "dbt-mcp",
+      "name": "dbt MCP server",
+      "category": "Data and product analytics",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/dbt-mcp?ref=github"
     },
     {
       "slug": "deepgram",
@@ -1478,6 +1590,22 @@
       "agentready_url": "https://agentready-tools.com/tools/expedia-rapid?ref=github"
     },
     {
+      "slug": "expo-mcp",
+      "name": "Expo MCP server",
+      "category": "Mobile app development",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/expo-mcp?ref=github"
+    },
+    {
       "slug": "extend",
       "name": "Extend",
       "category": "Documents and OCR",
@@ -1604,6 +1732,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/firebase?ref=github"
+    },
+    {
+      "slug": "firebase-mcp",
+      "name": "Firebase MCP server",
+      "category": "Mobile app development",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/firebase-mcp?ref=github"
     },
     {
       "slug": "firecrawl-mcp",
@@ -1766,6 +1910,22 @@
       "agentready_url": "https://agentready-tools.com/tools/github-mcp?ref=github"
     },
     {
+      "slug": "gitlab-mcp",
+      "name": "GitLab MCP server",
+      "category": "DevOps, cloud and code security",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/gitlab-mcp?ref=github"
+    },
+    {
       "slug": "gladia",
       "name": "Gladia",
       "category": "Speech",
@@ -1844,6 +2004,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/govinfo?ref=github"
+    },
+    {
+      "slug": "grafana-mcp",
+      "name": "Grafana MCP server",
+      "category": "DevOps, cloud and code security",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/grafana-mcp?ref=github"
     },
     {
       "slug": "groq",
@@ -2326,6 +2502,22 @@
       "agentready_url": "https://agentready-tools.com/tools/lusha?ref=github"
     },
     {
+      "slug": "maestro-mcp",
+      "name": "Maestro MCP",
+      "category": "Mobile app development",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/maestro-mcp?ref=github"
+    },
+    {
       "slug": "mailgun",
       "name": "Mailgun",
       "category": "Email, SMS, and voice",
@@ -2420,6 +2612,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/maxcopell-tripadvisor-reviews?ref=github"
+    },
+    {
+      "slug": "maze-mcp",
+      "name": "Maze MCP server",
+      "category": "Design, UX and UI",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/maze-mcp?ref=github"
     },
     {
       "slug": "mcp-reference-servers",
@@ -2550,6 +2758,22 @@
       "agentready_url": "https://agentready-tools.com/tools/michael-g-y-combinator-scraper?ref=github"
     },
     {
+      "slug": "microsoft-graph",
+      "name": "Microsoft Graph API",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/microsoft-graph?ref=github"
+    },
+    {
       "slug": "misceres-indeed-scraper",
       "name": "Indeed Scraper",
       "category": "Jobs",
@@ -2580,6 +2804,38 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/mistral-ai?ref=github"
+    },
+    {
+      "slug": "mixpanel-mcp",
+      "name": "Mixpanel MCP server",
+      "category": "Data and product analytics",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mixpanel-mcp?ref=github"
+    },
+    {
+      "slug": "mobilebuildmcp",
+      "name": "MobileBuildMCP",
+      "category": "Mobile app development",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mobilebuildmcp?ref=github"
     },
     {
       "slug": "modal",
@@ -2676,6 +2932,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/neon?ref=github"
+    },
+    {
+      "slug": "netlify-mcp",
+      "name": "Netlify MCP server",
+      "category": "DevOps, cloud and code security",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/netlify-mcp?ref=github"
     },
     {
       "slug": "nevermined",
@@ -3190,6 +3462,38 @@
       "agentready_url": "https://agentready-tools.com/tools/polar?ref=github"
     },
     {
+      "slug": "posthog-mcp",
+      "name": "PostHog MCP server",
+      "category": "Data and product analytics",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/posthog-mcp?ref=github"
+    },
+    {
+      "slug": "postman-mcp",
+      "name": "Postman MCP server",
+      "category": "DevOps, cloud and code security",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/postman-mcp?ref=github"
+    },
+    {
       "slug": "postmark",
       "name": "Postmark",
       "category": "Email, SMS, and voice",
@@ -3478,6 +3782,22 @@
       "agentready_url": "https://agentready-tools.com/tools/resend?ref=github"
     },
     {
+      "slug": "revenuecat-mcp",
+      "name": "RevenueCat MCP server",
+      "category": "Mobile app development",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/revenuecat-mcp?ref=github"
+    },
+    {
       "slug": "rocketreach",
       "name": "RocketReach",
       "category": "Company and people enrichment (official APIs)",
@@ -3734,6 +4054,22 @@
       "agentready_url": "https://agentready-tools.com/tools/skyscanner-travel-api?ref=github"
     },
     {
+      "slug": "slack-mcp",
+      "name": "Slack MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/slack-mcp?ref=github"
+    },
+    {
       "slug": "snov-io",
       "name": "Snov.io",
       "category": "Company and people enrichment (official APIs)",
@@ -3748,6 +4084,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/snov-io?ref=github"
+    },
+    {
+      "slug": "snowflake-mcp",
+      "name": "Snowflake MCP server",
+      "category": "Data and product analytics",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/snowflake-mcp?ref=github"
     },
     {
       "slug": "stability-ai",
