@@ -2,7 +2,7 @@
   "name": "AgentReady Tools open catalog",
   "source": "https://agentready-tools.com/tools.json",
   "source_updated": "2026-11-16",
-  "source_count": 304,
+  "source_count": 327,
   "data_license": "CC-BY-4.0",
   "tools": [
     {
@@ -70,6 +70,22 @@
       "agentready_url": "https://agentready-tools.com/tools/aftership-tracking?ref=github"
     },
     {
+      "slug": "agentmail",
+      "name": "AgentMail",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/agentmail?ref=github"
+    },
+    {
       "slug": "agentpay-checker",
       "name": "Agent Payment Checker — x402, MPP, L402, UCP & AP2 Detector",
       "category": "Web pages and crawlers",
@@ -120,7 +136,7 @@
     {
       "slug": "alpaca",
       "name": "Alpaca",
-      "category": "Market and fundamental data APIs",
+      "category": "Trading and brokerage APIs",
       "agent_readiness_checks": {
         "machine_readable": "yes",
         "auth_type": "unknown",
@@ -742,6 +758,22 @@
       "agentready_url": "https://agentready-tools.com/tools/canva?ref=github"
     },
     {
+      "slug": "carta-mcp",
+      "name": "Carta MCP server",
+      "category": "Venture capital and investment research",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/carta-mcp?ref=github"
+    },
+    {
       "slug": "cartesia",
       "name": "Cartesia",
       "category": "Speech",
@@ -772,6 +804,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/cerebras-inference?ref=github"
+    },
+    {
+      "slug": "cfpb-public-apis",
+      "name": "CFPB Public APIs",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cfpb-public-apis?ref=github"
     },
     {
       "slug": "chembl",
@@ -982,6 +1030,22 @@
       "agentready_url": "https://agentready-tools.com/tools/cohere?ref=github"
     },
     {
+      "slug": "coinbase-advanced-trade",
+      "name": "Coinbase Advanced Trade API",
+      "category": "Trading and brokerage APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/coinbase-advanced-trade?ref=github"
+    },
+    {
       "slug": "coingecko",
       "name": "CoinGecko API",
       "category": "Crypto and onchain data",
@@ -1016,7 +1080,7 @@
     {
       "slug": "companies-house",
       "name": "Companies House API",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -1080,7 +1144,7 @@
     {
       "slug": "congress-gov",
       "name": "Congress.gov API",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -1160,7 +1224,7 @@
     {
       "slug": "courtlistener",
       "name": "CourtListener",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -1188,6 +1252,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/crossmint?ref=github"
+    },
+    {
+      "slug": "crunchbase-api",
+      "name": "Crunchbase API",
+      "category": "Venture capital and investment research",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/crunchbase-api?ref=github"
     },
     {
       "slug": "curious-coder-linkedin-jobs-scraper",
@@ -1220,6 +1300,54 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/dailymed?ref=github"
+    },
+    {
+      "slug": "data-europa",
+      "name": "data.europa.eu APIs",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/data-europa?ref=github"
+    },
+    {
+      "slug": "data-gov-in",
+      "name": "Open Government Data Platform India API",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/data-gov-in?ref=github"
+    },
+    {
+      "slug": "data-gov-sg",
+      "name": "Data.gov.sg APIs",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/data-gov-sg?ref=github"
     },
     {
       "slug": "datadog-mcp",
@@ -1268,6 +1396,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/dbt-mcp?ref=github"
+    },
+    {
+      "slug": "dealroom-api",
+      "name": "Dealroom API and MCP",
+      "category": "Venture capital and investment research",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/dealroom-api?ref=github"
     },
     {
       "slug": "deepgram",
@@ -1478,6 +1622,38 @@
       "agentready_url": "https://agentready-tools.com/tools/easyship?ref=github"
     },
     {
+      "slug": "ecfr",
+      "name": "eCFR API",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/ecfr?ref=github"
+    },
+    {
+      "slug": "egov-laws-jp",
+      "name": "Japan e-Gov Laws API",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/egov-laws-jp?ref=github"
+    },
+    {
       "slug": "elevenlabs",
       "name": "ElevenLabs",
       "category": "Speech",
@@ -1524,6 +1700,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/eodhd?ref=github"
+    },
+    {
+      "slug": "eur-lex",
+      "name": "EUR-Lex Webservice and CELLAR",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/eur-lex?ref=github"
     },
     {
       "slug": "europe-pmc",
@@ -1656,7 +1848,7 @@
     {
       "slug": "federal-register",
       "name": "Federal Register API",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -1812,6 +2004,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/framer?ref=github"
+    },
+    {
+      "slug": "fred-api",
+      "name": "FRED and ALFRED API",
+      "category": "Venture capital and investment research",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/fred-api?ref=github"
     },
     {
       "slug": "freshbooks",
@@ -1992,7 +2200,7 @@
     {
       "slug": "govinfo",
       "name": "GovInfo",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -2086,6 +2294,22 @@
       "agentready_url": "https://agentready-tools.com/tools/helius?ref=github"
     },
     {
+      "slug": "hong-kong-elegislation",
+      "name": "Hong Kong e-Legislation",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/hong-kong-elegislation?ref=github"
+    },
+    {
       "slug": "hotelbeds",
       "name": "Hotelbeds APItude",
       "category": "Flights and travel",
@@ -2150,6 +2374,22 @@
       "agentready_url": "https://agentready-tools.com/tools/hunter-io?ref=github"
     },
     {
+      "slug": "ibkr-web-api",
+      "name": "Interactive Brokers Web API",
+      "category": "Trading and brokerage APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/ibkr-web-api?ref=github"
+    },
+    {
       "slug": "ideogram",
       "name": "Ideogram",
       "category": "Image and video generation APIs",
@@ -2164,6 +2404,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/ideogram?ref=github"
+    },
+    {
+      "slug": "india-code",
+      "name": "India Code",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/india-code?ref=github"
     },
     {
       "slug": "instantly",
@@ -2278,6 +2534,22 @@
       "agentready_url": "https://agentready-tools.com/tools/kernel?ref=github"
     },
     {
+      "slug": "korea-law-open-api",
+      "name": "Korea Law Open Data APIs",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/korea-law-open-api?ref=github"
+    },
+    {
       "slug": "landing-ai",
       "name": "Landing AI",
       "category": "Documents and OCR",
@@ -2340,6 +2612,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/langwatch?ref=github"
+    },
+    {
+      "slug": "legislation-gov-uk",
+      "name": "legislation.gov.uk API",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/legislation-gov-uk?ref=github"
     },
     {
       "slug": "lemlist",
@@ -2522,14 +2810,14 @@
       "name": "Mailgun",
       "category": "Email, SMS, and voice",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
         "liveness": "unknown"
       },
-      "mcp": false,
+      "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/mailgun?ref=github"
     },
@@ -3142,6 +3430,22 @@
       "agentready_url": "https://agentready-tools.com/tools/openai-images?ref=github"
     },
     {
+      "slug": "openbb-odp",
+      "name": "OpenBB Open Data Platform",
+      "category": "Trading and brokerage APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openbb-odp?ref=github"
+    },
+    {
       "slug": "opencage",
       "name": "OpenCage Geocoding",
       "category": "Maps and geocoding APIs",
@@ -3160,7 +3464,7 @@
     {
       "slug": "opencorporates",
       "name": "OpenCorporates",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -3208,7 +3512,7 @@
     {
       "slug": "opensanctions",
       "name": "OpenSanctions",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -3380,6 +3684,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/pipelinelabs-lead-scraper-apollo-zoominfo-lusha-ppe?ref=github"
+    },
+    {
+      "slug": "pitchbook-api",
+      "name": "PitchBook API",
+      "category": "Venture capital and investment research",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pitchbook-api?ref=github"
     },
     {
       "slug": "plaid",
@@ -3606,6 +3926,22 @@
       "agentready_url": "https://agentready-tools.com/tools/qdrant?ref=github"
     },
     {
+      "slug": "quantconnect-api",
+      "name": "QuantConnect Cloud API",
+      "category": "Trading and brokerage APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/quantconnect-api?ref=github"
+    },
+    {
       "slug": "quickbooks-online",
       "name": "QuickBooks Online",
       "category": "Banking, accounting, and open banking",
@@ -3720,7 +4056,7 @@
     {
       "slug": "regulations-gov",
       "name": "Regulations.gov API",
-      "category": "Legal and government data",
+      "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
         "auth_type": "unknown",
@@ -3910,6 +4246,22 @@
       "agentready_url": "https://agentready-tools.com/tools/scraperlink-google-search-results-serp-scraper?ref=github"
     },
     {
+      "slug": "sec-edgar-api",
+      "name": "SEC EDGAR data APIs",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/sec-edgar-api?ref=github"
+    },
+    {
       "slug": "semantic-scholar",
       "name": "Semantic Scholar Academic Graph API",
       "category": "Health and biomedical data",
@@ -4020,6 +4372,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/silva95gustavo-google-ads-scraper?ref=github"
+    },
+    {
+      "slug": "singapore-statutes-online",
+      "name": "Singapore Statutes Online",
+      "category": "Government, Regulation, Legal & Policy",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/singapore-statutes-online?ref=github"
     },
     {
       "slug": "skyfire",
