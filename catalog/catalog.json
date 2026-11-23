@@ -2,7 +2,7 @@
   "name": "AgentReady Tools open catalog",
   "source": "https://agentready-tools.com/tools.json",
   "source_updated": "2026-11-16",
-  "source_count": 327,
+  "source_count": 333,
   "data_license": "CC-BY-4.0",
   "tools": [
     {
@@ -347,9 +347,9 @@
       "category": "Web data, crawling, and search",
       "agent_readiness_checks": {
         "machine_readable": "yes",
-        "auth_type": "unknown",
-        "pay_per_use": "unknown",
-        "agent_controls": "unknown",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "yes",
         "tool_annotations": "unknown",
         "liveness": "unknown"
       },
@@ -564,6 +564,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/attio?ref=github"
+    },
+    {
+      "slug": "auth0-ai-agents",
+      "name": "Auth0 for AI Agents",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/auth0-ai-agents?ref=github"
     },
     {
       "slug": "aviationstack",
@@ -970,8 +986,8 @@
       "name": "CockroachDB",
       "category": "Managed databases and backend platforms",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -1691,10 +1707,10 @@
       "category": "Market and fundamental data APIs",
       "agent_readiness_checks": {
         "machine_readable": "yes",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
-        "tool_annotations": "unknown",
+        "tool_annotations": "yes",
         "liveness": "unknown"
       },
       "mcp": true,
@@ -1755,9 +1771,9 @@
       "category": "Web data, crawling, and search",
       "agent_readiness_checks": {
         "machine_readable": "yes",
-        "auth_type": "unknown",
-        "pay_per_use": "unknown",
-        "agent_controls": "unknown",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "yes",
         "tool_annotations": "unknown",
         "liveness": "unknown"
       },
@@ -2710,6 +2726,22 @@
       "agentready_url": "https://agentready-tools.com/tools/liteapi?ref=github"
     },
     {
+      "slug": "lithic",
+      "name": "Lithic",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/lithic?ref=github"
+    },
+    {
       "slug": "llamaparse",
       "name": "LlamaParse",
       "category": "Documents and OCR",
@@ -2868,6 +2900,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/massive?ref=github"
+    },
+    {
+      "slug": "mastercard-agent-pay",
+      "name": "Mastercard Agent Pay",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mastercard-agent-pay?ref=github"
     },
     {
       "slug": "maxcopell-tripadvisor",
@@ -3364,6 +3412,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/nylas?ref=github"
+    },
+    {
+      "slug": "okta-cross-app-access",
+      "name": "Okta Cross App Access",
+      "category": "Auth and identity",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/okta-cross-app-access?ref=github"
     },
     {
       "slug": "open-meteo",
@@ -4550,6 +4614,22 @@
       "agentready_url": "https://agentready-tools.com/tools/stripe-financial-connections?ref=github"
     },
     {
+      "slug": "stripe-issuing-agents",
+      "name": "Stripe Issuing for agents",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/stripe-issuing-agents?ref=github"
+    },
+    {
       "slug": "stripe-mcp",
       "name": "Stripe MCP",
       "category": "Official platform servers",
@@ -4587,9 +4667,9 @@
       "category": "Official platform servers",
       "agent_readiness_checks": {
         "machine_readable": "yes",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
-        "agent_controls": "unknown",
+        "agent_controls": "yes",
         "tool_annotations": "unknown",
         "liveness": "unknown"
       },
@@ -4891,9 +4971,9 @@
       "category": "Email, SMS, and voice",
       "agent_readiness_checks": {
         "machine_readable": "yes",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "yes",
-        "agent_controls": "unknown",
+        "agent_controls": "yes",
         "tool_annotations": "unknown",
         "liveness": "unknown"
       },
@@ -5014,6 +5094,22 @@
       "agentready_url": "https://agentready-tools.com/tools/vercel-mcp?ref=github"
     },
     {
+      "slug": "visa-intelligent-commerce",
+      "name": "Visa Intelligent Commerce",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/visa-intelligent-commerce?ref=github"
+    },
+    {
       "slug": "visual-crossing",
       "name": "Visual Crossing Weather",
       "category": "Weather",
@@ -5130,9 +5226,9 @@
       "name": "Wise",
       "category": "Banking, accounting, and open banking",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
-        "pay_per_use": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
         "liveness": "unknown"
