@@ -2,7 +2,7 @@
   "name": "AgentReady Tools open catalog",
   "source": "https://agentready-tools.com/tools.json",
   "source_updated": "2026-11-16",
-  "source_count": 333,
+  "source_count": 362,
   "data_license": "CC-BY-4.0",
   "tools": [
     {
@@ -486,6 +486,22 @@
       "agentready_url": "https://agentready-tools.com/tools/arcade?ref=github"
     },
     {
+      "slug": "arxiv-api",
+      "name": "arXiv API",
+      "category": "Research and knowledge",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/arxiv-api?ref=github"
+    },
+    {
       "slug": "asana-mcp",
       "name": "Asana MCP server",
       "category": "Workplace and collaboration",
@@ -532,6 +548,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/atlassian-mcp?ref=github"
+    },
+    {
+      "slug": "atlassian-rovo-a2a",
+      "name": "Atlassian Rovo (A2A)",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/atlassian-rovo-a2a?ref=github"
     },
     {
       "slug": "ats-jobs",
@@ -596,6 +628,38 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/aviationstack?ref=github"
+    },
+    {
+      "slug": "bamboohr-api",
+      "name": "BambooHR API",
+      "category": "HR and people systems",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/bamboohr-api?ref=github"
+    },
+    {
+      "slug": "bamboohr-mcp",
+      "name": "BambooHR MCP server",
+      "category": "HR and people systems",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/bamboohr-mcp?ref=github"
     },
     {
       "slug": "batchdata",
@@ -708,6 +772,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/braintrust?ref=github"
+    },
+    {
+      "slug": "browser-use-cloud",
+      "name": "Browser Use Cloud",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/browser-use-cloud?ref=github"
     },
     {
       "slug": "browserbase-mcp",
@@ -1270,6 +1350,22 @@
       "agentready_url": "https://agentready-tools.com/tools/crossmint?ref=github"
     },
     {
+      "slug": "crossref-rest-api",
+      "name": "Crossref REST API",
+      "category": "Research and knowledge",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/crossref-rest-api?ref=github"
+    },
+    {
       "slug": "crunchbase-api",
       "name": "Crunchbase API",
       "category": "Venture capital and investment research",
@@ -1300,6 +1396,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/curious-coder-linkedin-jobs-scraper?ref=github"
+    },
+    {
+      "slug": "cursor-cloud-agents",
+      "name": "Cursor Cloud Agents API",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cursor-cloud-agents?ref=github"
     },
     {
       "slug": "dailymed",
@@ -1524,6 +1636,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/dev-fusion-linkedin-profile-scraper?ref=github"
+    },
+    {
+      "slug": "devin-api",
+      "name": "Devin API",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/devin-api?ref=github"
     },
     {
       "slug": "dhl-developer",
@@ -1764,6 +1892,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/event-registry?ref=github"
+    },
+    {
+      "slug": "exa-agent-api",
+      "name": "Exa Agent API",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/exa-agent-api?ref=github"
     },
     {
       "slug": "exa-mcp",
@@ -2054,6 +2198,22 @@
       "agentready_url": "https://agentready-tools.com/tools/freshbooks?ref=github"
     },
     {
+      "slug": "freshdesk-api",
+      "name": "Freshdesk API",
+      "category": "Customer support and help desk",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/freshdesk-api?ref=github"
+    },
+    {
       "slug": "freshworks-crm",
       "name": "Freshworks CRM",
       "category": "CRM and official sales APIs",
@@ -2068,6 +2228,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/freshworks-crm?ref=github"
+    },
+    {
+      "slug": "front-mcp",
+      "name": "Front MCP server",
+      "category": "Customer support and help desk",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/front-mcp?ref=github"
     },
     {
       "slug": "fullcontact",
@@ -2116,6 +2292,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/geoapify?ref=github"
+    },
+    {
+      "slug": "github-copilot-cloud-agent",
+      "name": "GitHub Copilot cloud agent",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/github-copilot-cloud-agent?ref=github"
     },
     {
       "slug": "github-mcp",
@@ -2180,6 +2372,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/gocardless?ref=github"
+    },
+    {
+      "slug": "google-ads-mcp",
+      "name": "Google Ads MCP server",
+      "category": "Marketing and ads",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-ads-mcp?ref=github"
     },
     {
       "slug": "google-gemini-api",
@@ -2454,6 +2662,22 @@
       "agentready_url": "https://agentready-tools.com/tools/instantly?ref=github"
     },
     {
+      "slug": "intercom-mcp",
+      "name": "Intercom MCP server",
+      "category": "Customer support and help desk",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/intercom-mcp?ref=github"
+    },
+    {
       "slug": "invideoiq-video-transcript-scraper",
       "name": "Video Transcript Scraper: Youtube, X, Facebook, Tiktok, etc.",
       "category": "Video",
@@ -2468,6 +2692,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/invideoiq-video-transcript-scraper?ref=github"
+    },
+    {
+      "slug": "jules-api",
+      "name": "Jules API",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "yes",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/jules-api?ref=github"
     },
     {
       "slug": "junglee-amazon-crawler",
@@ -2548,6 +2788,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/kernel?ref=github"
+    },
+    {
+      "slug": "klaviyo-mcp",
+      "name": "Klaviyo MCP server",
+      "category": "Marketing and ads",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/klaviyo-mcp?ref=github"
     },
     {
       "slug": "korea-law-open-api",
@@ -2838,6 +3094,22 @@
       "agentready_url": "https://agentready-tools.com/tools/maestro-mcp?ref=github"
     },
     {
+      "slug": "mailchimp-marketing-api",
+      "name": "Mailchimp Marketing API",
+      "category": "Marketing and ads",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mailchimp-marketing-api?ref=github"
+    },
+    {
       "slug": "mailgun",
       "name": "Mailgun",
       "category": "Email, SMS, and voice",
@@ -2852,6 +3124,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/mailgun?ref=github"
+    },
+    {
+      "slug": "manus-api",
+      "name": "Manus API",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/manus-api?ref=github"
     },
     {
       "slug": "mapbox",
@@ -3076,6 +3364,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/mercury?ref=github"
+    },
+    {
+      "slug": "meta-ads-mcp",
+      "name": "Meta Ads MCP server",
+      "category": "Marketing and ads",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/meta-ads-mcp?ref=github"
     },
     {
       "slug": "michael-g-y-combinator-scraper",
@@ -3414,6 +3718,22 @@
       "agentready_url": "https://agentready-tools.com/tools/nylas?ref=github"
     },
     {
+      "slug": "odpt-japan-transit",
+      "name": "ODPT Public Transportation Open Data API (Japan)",
+      "category": "Maps and geocoding APIs",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/odpt-japan-transit?ref=github"
+    },
+    {
       "slug": "okta-cross-app-access",
       "name": "Okta Cross App Access",
       "category": "Auth and identity",
@@ -3492,6 +3812,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/openai-images?ref=github"
+    },
+    {
+      "slug": "openalex-api",
+      "name": "OpenAlex API",
+      "category": "Research and knowledge",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/openalex-api?ref=github"
     },
     {
       "slug": "openbb-odp",
@@ -3636,6 +3972,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/oxylabs-web-api?ref=github"
+    },
+    {
+      "slug": "parallel-task-api",
+      "name": "Parallel Task API",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/parallel-task-api?ref=github"
     },
     {
       "slug": "peakydev-leads-scraper-ppe",
@@ -4198,6 +4550,22 @@
       "agentready_url": "https://agentready-tools.com/tools/revenuecat-mcp?ref=github"
     },
     {
+      "slug": "rippling-api",
+      "name": "Rippling API",
+      "category": "HR and people systems",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/rippling-api?ref=github"
+    },
+    {
       "slug": "rocketreach",
       "name": "RocketReach",
       "category": "Company and people enrichment (official APIs)",
@@ -4342,6 +4710,22 @@
       "agentready_url": "https://agentready-tools.com/tools/semantic-scholar?ref=github"
     },
     {
+      "slug": "sendgrid",
+      "name": "Twilio SendGrid",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/sendgrid?ref=github"
+    },
+    {
       "slug": "sentry-mcp",
       "name": "Sentry MCP",
       "category": "Official platform servers",
@@ -4484,6 +4868,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/skyscanner-travel-api?ref=github"
+    },
+    {
+      "slug": "skyvern",
+      "name": "Skyvern",
+      "category": "Callable AI agents",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/skyvern?ref=github"
     },
     {
       "slug": "slack-mcp",
@@ -5238,6 +5638,54 @@
       "agentready_url": "https://agentready-tools.com/tools/wise?ref=github"
     },
     {
+      "slug": "wolfram-alpha-llm-api",
+      "name": "Wolfram|Alpha LLM API",
+      "category": "Research and knowledge",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/wolfram-alpha-llm-api?ref=github"
+    },
+    {
+      "slug": "wolfram-mcp-service",
+      "name": "Wolfram MCP Service (Cloud)",
+      "category": "Research and knowledge",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/wolfram-mcp-service?ref=github"
+    },
+    {
+      "slug": "workday-mcp",
+      "name": "Workday MCP (Agent Gateway)",
+      "category": "HR and people systems",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/workday-mcp?ref=github"
+    },
+    {
       "slug": "workos",
       "name": "WorkOS",
       "category": "Auth and identity",
@@ -5300,6 +5748,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/xero?ref=github"
+    },
+    {
+      "slug": "zendesk-api",
+      "name": "Zendesk Ticketing API",
+      "category": "Customer support and help desk",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/zendesk-api?ref=github"
     },
     {
       "slug": "zep",
