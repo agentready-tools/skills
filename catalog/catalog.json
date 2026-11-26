@@ -2,7 +2,7 @@
   "name": "AgentReady Tools open catalog",
   "source": "https://agentready-tools.com/tools.json",
   "source_updated": "2026-11-16",
-  "source_count": 362,
+  "source_count": 374,
   "data_license": "CC-BY-4.0",
   "tools": [
     {
@@ -1046,6 +1046,22 @@
       "agentready_url": "https://agentready-tools.com/tools/close?ref=github"
     },
     {
+      "slug": "cloudbrowser",
+      "name": "Cloudbrowser",
+      "category": "Browser automation",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/cloudbrowser?ref=github"
+    },
+    {
       "slug": "cloudflare-mcp",
       "name": "Cloudflare MCP",
       "category": "Official platform servers",
@@ -1178,8 +1194,8 @@
       "name": "Companies House API",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -1476,6 +1492,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/data-gov-sg?ref=github"
+    },
+    {
+      "slug": "datacircle",
+      "name": "Datacircle",
+      "category": "Lead generation",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/datacircle?ref=github"
     },
     {
       "slug": "datadog-mcp",
@@ -2358,6 +2390,22 @@
       "agentready_url": "https://agentready-tools.com/tools/gladia?ref=github"
     },
     {
+      "slug": "gmail-mcp",
+      "name": "Gmail MCP server",
+      "category": "Email, SMS, and voice",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/gmail-mcp?ref=github"
+    },
+    {
       "slug": "gocardless",
       "name": "GoCardless",
       "category": "Banking, accounting, and open banking",
@@ -2388,6 +2436,70 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/google-ads-mcp?ref=github"
+    },
+    {
+      "slug": "google-calendar-mcp",
+      "name": "Google Calendar MCP server",
+      "category": "Calendar and scheduling",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-calendar-mcp?ref=github"
+    },
+    {
+      "slug": "google-chat-mcp",
+      "name": "Google Chat MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-chat-mcp?ref=github"
+    },
+    {
+      "slug": "google-docs-mcp",
+      "name": "Google Docs MCP server",
+      "category": "Documents and OCR",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-docs-mcp?ref=github"
+    },
+    {
+      "slug": "google-drive-mcp",
+      "name": "Google Drive MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-drive-mcp?ref=github"
     },
     {
       "slug": "google-gemini-api",
@@ -2422,12 +2534,60 @@
       "agentready_url": "https://agentready-tools.com/tools/google-image-generation?ref=github"
     },
     {
+      "slug": "google-sheets-mcp",
+      "name": "Google Sheets MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-sheets-mcp?ref=github"
+    },
+    {
+      "slug": "google-slides-mcp",
+      "name": "Google Slides MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-slides-mcp?ref=github"
+    },
+    {
+      "slug": "google-tasks-mcp",
+      "name": "Google Tasks MCP server",
+      "category": "Workplace and collaboration",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "unknown",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/google-tasks-mcp?ref=github"
+    },
+    {
       "slug": "govinfo",
       "name": "GovInfo",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -3270,6 +3430,38 @@
       "agentready_url": "https://agentready-tools.com/tools/mcp-reference-servers?ref=github"
     },
     {
+      "slug": "mcp-registry-api",
+      "name": "MCP Registry API",
+      "category": "Docs and reference servers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mcp-registry-api?ref=github"
+    },
+    {
+      "slug": "mcp-registry-discovery-export",
+      "name": "MCP Registry Discovery Export",
+      "category": "Docs and reference servers",
+      "agent_readiness_checks": {
+        "machine_readable": "unknown",
+        "auth_type": "unknown",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": false,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/mcp-registry-discovery-export?ref=github"
+    },
+    {
       "slug": "medi-span",
       "name": "Medi-Span",
       "category": "Health and biomedical data",
@@ -3322,8 +3514,8 @@
       "name": "MedlinePlus Web Service",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -3882,7 +4074,7 @@
       "name": "openFDA",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
@@ -4314,8 +4506,8 @@
       "name": "PubMed / NCBI E-utilities",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -4474,7 +4666,7 @@
       "name": "Regulations.gov API",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
