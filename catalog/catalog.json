@@ -986,7 +986,7 @@
       "name": "ClinicalTrials.gov API",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
@@ -1258,8 +1258,8 @@
       "name": "Congress.gov API",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -1338,7 +1338,7 @@
       "name": "CourtListener",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
@@ -1434,7 +1434,7 @@
       "name": "DailyMed",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
@@ -1450,7 +1450,7 @@
       "name": "data.europa.eu APIs",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
@@ -1483,7 +1483,7 @@
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -1882,8 +1882,8 @@
       "name": "EUR-Lex Webservice and CELLAR",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -3050,7 +3050,7 @@
       "name": "legislation.gov.uk API",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
@@ -4059,7 +4059,7 @@
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -4107,7 +4107,7 @@
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -4490,7 +4490,7 @@
       "name": "PubChem",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
@@ -4794,7 +4794,7 @@
       "name": "RxNorm / RxNav",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
+        "machine_readable": "yes",
         "auth_type": "unknown",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
@@ -4874,8 +4874,8 @@
       "name": "SEC EDGAR data APIs",
       "category": "Government, Regulation, Legal & Policy",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -5579,7 +5579,7 @@
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
         "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "auth_type": "yes",
         "pay_per_use": "unknown",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
@@ -5786,8 +5786,8 @@
       "name": "WHO ICD-11 API",
       "category": "Health and biomedical data",
       "agent_readiness_checks": {
-        "machine_readable": "unknown",
-        "auth_type": "unknown",
+        "machine_readable": "yes",
+        "auth_type": "yes",
         "pay_per_use": "yes",
         "agent_controls": "unknown",
         "tool_annotations": "unknown",
