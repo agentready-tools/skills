@@ -2,7 +2,7 @@
   "name": "AgentReady Tools open catalog",
   "source": "https://agentready-tools.com/tools.json",
   "source_updated": "2026-11-16",
-  "source_count": 374,
+  "source_count": 389,
   "data_license": "CC-BY-4.0",
   "tools": [
     {
@@ -20,6 +20,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/17track?ref=github"
+    },
+    {
+      "slug": "adyen-mcp",
+      "name": "Adyen MCP",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/adyen-mcp?ref=github"
     },
     {
       "slug": "affinda",
@@ -964,6 +980,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/chromatic?ref=github"
+    },
+    {
+      "slug": "circleci-mcp",
+      "name": "CircleCI MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/circleci-mcp?ref=github"
     },
     {
       "slug": "clerk",
@@ -3286,6 +3318,22 @@
       "agentready_url": "https://agentready-tools.com/tools/mailgun?ref=github"
     },
     {
+      "slug": "make-mcp",
+      "name": "Make MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/make-mcp?ref=github"
+    },
+    {
       "slug": "manus-api",
       "name": "Manus API",
       "category": "Callable AI agents",
@@ -3750,6 +3798,22 @@
       "agentready_url": "https://agentready-tools.com/tools/moralis?ref=github"
     },
     {
+      "slug": "n8n",
+      "name": "n8n MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/n8n?ref=github"
+    },
+    {
       "slug": "neon",
       "name": "Neon",
       "category": "Managed databases and backend platforms",
@@ -4166,6 +4230,22 @@
       "agentready_url": "https://agentready-tools.com/tools/oxylabs-web-api?ref=github"
     },
     {
+      "slug": "pagerduty-mcp",
+      "name": "PagerDuty MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pagerduty-mcp?ref=github"
+    },
+    {
       "slug": "parallel-task-api",
       "name": "Parallel Task API",
       "category": "Callable AI agents",
@@ -4180,6 +4260,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/parallel-task-api?ref=github"
+    },
+    {
+      "slug": "paypal-mcp",
+      "name": "PayPal MCP",
+      "category": "Payments and agent commerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/paypal-mcp?ref=github"
     },
     {
       "slug": "peakydev-leads-scraper-ppe",
@@ -4230,6 +4326,22 @@
       "agentready_url": "https://agentready-tools.com/tools/perigon?ref=github"
     },
     {
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/perplexity?ref=github"
+    },
+    {
       "slug": "pinecone",
       "name": "Pinecone",
       "category": "Vector databases and memory",
@@ -4244,6 +4356,22 @@
       "mcp": true,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/pinecone?ref=github"
+    },
+    {
+      "slug": "pipedream",
+      "name": "Pipedream Connect MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/pipedream?ref=github"
     },
     {
       "slug": "pipedrive",
@@ -4646,6 +4774,22 @@
       "agentready_url": "https://agentready-tools.com/tools/recraft?ref=github"
     },
     {
+      "slug": "redis-mcp",
+      "name": "Redis MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/redis-mcp?ref=github"
+    },
+    {
       "slug": "reducto",
       "name": "Reducto",
       "category": "Documents and OCR",
@@ -4676,6 +4820,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/regulations-gov?ref=github"
+    },
+    {
+      "slug": "render-mcp",
+      "name": "Render MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/render-mcp?ref=github"
     },
     {
       "slug": "rentcast",
@@ -4934,6 +5094,22 @@
       "agentready_url": "https://agentready-tools.com/tools/sentry-mcp?ref=github"
     },
     {
+      "slug": "serpapi",
+      "name": "SerpApi",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/serpapi?ref=github"
+    },
+    {
       "slug": "shadcn-ui",
       "name": "shadcn/ui MCP server",
       "category": "Design, UX and UI",
@@ -4996,6 +5172,38 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/shippo?ref=github"
+    },
+    {
+      "slug": "shopify-dev-mcp",
+      "name": "Shopify Dev MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/shopify-dev-mcp?ref=github"
+    },
+    {
+      "slug": "shopify-storefront-mcp",
+      "name": "Shopify Storefront Catalog MCP",
+      "category": "Ecommerce",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/shopify-storefront-mcp?ref=github"
     },
     {
       "slug": "silva95gustavo-google-ads-scraper",
@@ -5284,6 +5492,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/supreme-coder-linkedin-post?ref=github"
+    },
+    {
+      "slug": "tavily",
+      "name": "Tavily",
+      "category": "Search and SEO",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "yes",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/tavily?ref=github"
     },
     {
       "slug": "teller",
@@ -5940,6 +6164,22 @@
       "mcp": false,
       "openapi": null,
       "agentready_url": "https://agentready-tools.com/tools/xero?ref=github"
+    },
+    {
+      "slug": "zapier-mcp",
+      "name": "Zapier MCP",
+      "category": "Official platform servers",
+      "agent_readiness_checks": {
+        "machine_readable": "yes",
+        "auth_type": "yes",
+        "pay_per_use": "unknown",
+        "agent_controls": "unknown",
+        "tool_annotations": "unknown",
+        "liveness": "unknown"
+      },
+      "mcp": true,
+      "openapi": null,
+      "agentready_url": "https://agentready-tools.com/tools/zapier-mcp?ref=github"
     },
     {
       "slug": "zendesk-api",
